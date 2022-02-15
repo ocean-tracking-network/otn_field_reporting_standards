@@ -82,12 +82,12 @@ glimpse(gmr_matched_2018)
 #Answer 6:
 #1. 
 gmr_matched_2018 %>% 
-  filter(catalognumber=="GMR-25720-2014-01-18") %>% 
+  dplyr::filter(catalognumber=="GMR-25720-2014-01-18") %>% 
   summarise(MaxLat=max(latitude), MaxLong=max(longitude))
 
 #2. 
 gmr_matched_2018 %>% 
-  filter(monthcollected >= 4 ) %>% 
+  dplyr::filter(monthcollected >= 4 ) %>% 
   group_by(catalognumber) %>% 
   summarise(MinLat=min(latitude), MinLong=min(longitude))
 
@@ -98,7 +98,7 @@ gmr_matched_2018 %>%
 
 #Answer 7: 
 gmr_matched_18_19 %>%  
-  filter(catalognumber=="GMR-25720-2014-01-18") %>% 
+  dplyr::filter(catalognumber=="GMR-25720-2014-01-18") %>% 
   ggplot(aes(longitude, latitude, colour = station)) + 
   geom_point()
 

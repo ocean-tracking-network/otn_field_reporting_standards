@@ -1,5 +1,10 @@
 # Intro to R for Telemetry Summaries --------
 
+# Prepared by Ocean Tracking Network in Feb 2022
+# for MigraMar Network Student Workshop 2022
+# contact otndc@dal.ca for questions
+
+
 # Installs and Setup --------
 library(tidyverse)# really neat collection of packages! https://www.tidyverse.org/
 library(lubridate)
@@ -8,7 +13,7 @@ library(viridis)
 library(plotly)
 library(ggmap)
 
-setwd('C:/Users/ct991305/Documents/Workshop Material/migramar') #set folder you're going to work in
+setwd('YOUR/PATH/TO/migramar-student-workshop-2022/') #set folder you're going to work in
 getwd() #check working directory
 
 # Intro to R --------
@@ -95,7 +100,7 @@ gmr_matched_2018 <- read_csv("gmr_matched_detections_2018.csv")
 ## Exploring Detection Extracts ----
 
 head(gmr_matched_2018) #first 6 rows
-View(gmr_matched_2018) #can also click on object in Environment window
+view(gmr_matched_2018) #can also click on object in Environment window
 str(gmr_matched_2018) #can see the type of each column (vector)
 glimpse(gmr_matched_2018) #similar to str()
 
@@ -129,10 +134,10 @@ gmr_matched_2018 %>%
 # Take gmr_matched_2018 AND THEN select only the unique entries in the catalognumber column AND THEN count them with nrow.
 
 #We can use filtering to conditionally select rows as well.
-gmr_matched_2018 %>% filter(catalognumber=="GMR-25718-2014-01-17") 
+gmr_matched_2018 %>% dplyr::filter(catalognumber=="GMR-25718-2014-01-17") 
 # Take gmr_matched_2018 AND THEN select only those rows where catalognumber is equal to the above value.
 
-gmr_matched_2018 %>% filter(monthcollected >= 10) #all dets in/after October of 2016
+gmr_matched_2018 %>% dplyr::filter(monthcollected >= 10) #all dets in/after October of 2018
 # Take gmr_matched_2018 AND THEN select only those rows where monthcollected is greater than or equal to 10. 
 
 #get the mean value across a column using GroupBy and Summarize
@@ -149,7 +154,7 @@ gmr_matched_18_19 <- rbind(gmr_matched_2018, gmr_matched_2019) #Now join the two
 # release records for animals often appear in >1 year, this will remove the duplicates
 gmr_matched_18_19 <- gmr_matched_18_19 %>% distinct() # Use distinct to remove duplicates. 
 
-View(gmr_matched_18_19) 
+view(gmr_matched_18_19) 
 
 ## Dealing with Datetimes ----
 
@@ -208,12 +213,12 @@ gmr_matched_18_19 %>%
 # Creating Summary Reports: Importing --------
 
 ## Tag Matches ----
-View(gmr_matched_18_19) #Check to make sure we already have our tag matches, from a previous episode
+view(gmr_matched_18_19) #Check to make sure we already have our tag matches, from a previous episode
 
 # if you do not have the variable created from a previous lesson, you can use the following code to re-create it:
 
-#gmr_matched_2018 <- read_csv("gmr_matched_detections_2018.csv") #Import 2016 detections
-#gmr_matched_2019 <- read_csv("gmr_matched_detections_2019.csv") # Import 2017 detections
+#gmr_matched_2018 <- read_csv("gmr_matched_detections_2018.csv") #Import 2018 detections
+#gmr_matched_2019 <- read_csv("gmr_matched_detections_2019.csv") # Import 2019 detections
 #gmr_matched_18_19 <- rbind(gmr_matched_2018, gmr_matched_2019) #Now join the two dataframes
 # release records for animals often appear in >1 year, this will remove the duplicates
 #gmr_matched_18_19 <- gmr_matched_18_19 %>% distinct() # Use distinct to remove duplicates. 
@@ -230,11 +235,11 @@ library(readxl)
 
 # Deployment Metadata
 gmr_deploy <- read_excel("gmr-deployment-short-form.xls", sheet = "Deployment")
-View(gmr_deploy)
+view(gmr_deploy)
 
 # Tag metadata
 gmr_tag <- read_excel("gmr_tagging_metadata.xls", sheet = "Tag Metadata") 
-View(gmr_tag)
+view(gmr_tag)
 
 #keep in mind the timezone of the columns
 
@@ -261,8 +266,8 @@ base <- get_stamenmap(
 gmr_deploy_plot <- gmr_deploy %>% 
   mutate(deploy_date=ymd_hms(`DEPLOY_DATE_TIME   (yyyy-mm-ddThh:mm:ss)`)) %>% #make a datetime
   mutate(recover_date=ymd_hms(`RECOVER_DATE_TIME (yyyy-mm-ddThh:mm:ss)`)) %>% #make a datetime
-  filter(!is.na(deploy_date)) %>% #no null deploys
-  filter(deploy_date > '2017-07-03') %>% #only looking at certain deployments, can add start/end dates here
+  dplyr::filter(!is.na(deploy_date)) %>% #no null deploys
+  dplyr::filter(deploy_date > '2017-07-03') %>% #only looking at certain deployments, can add start/end dates here
   group_by(STATION_NO) %>% 
   summarise(MeanLat=mean(DEPLOY_LAT), MeanLong=mean(DEPLOY_LONG)) #get the mean location per station, in case there is >1 deployment
 
@@ -325,7 +330,7 @@ gmr_map_plotly <- gmr_map_plotly %>% add_markers(
 gmr_map_plotly <- gmr_map_plotly %>% layout(
   title = 'GMR Deployments<br />(> 2017-07-03)', geo = geo_styling)
 
-#View map
+#view map
 
 gmr_map_plotly
 
@@ -333,10 +338,10 @@ gmr_map_plotly
 # How many of each animals did we detect from each collaborator, by species, per station
 
 gmr_qual_summary <- gmr_qual_18_19 %>% 
-  filter(datecollected > '2018-06-01') %>% #select timeframe, stations etc.
+  dplyr::filter(datecollected > '2018-06-01') %>% #select timeframe, stations etc.
   group_by(trackercode, station, tag_contact_pi, tag_contact_poc) %>% 
   summarize(count = n()) %>% 
-  select(trackercode, tag_contact_pi, tag_contact_poc, station, count)
+  dplyr::select(trackercode, tag_contact_pi, tag_contact_poc, station, count)
 
 #view our summary table
 
@@ -365,7 +370,7 @@ stationsum <- gmr_qual_18_19 %>%
             end = max(datecollected),
             uniqueIDs = length(unique(fieldnumber)), 
             det_days=length(unique(as.Date(datecollected))))
-View(stationsum)
+view(stationsum)
 
 
 ## Plot of Detections ----
@@ -383,7 +388,7 @@ gmr_qual_18_19 %>%
   geom_bar(stat = "identity", position = "dodge2")+ 
   xlab("Month")+
   ylab("Total Detection Count")+
-  ggtitle('GMR Animal Detections by Month')+ #title
+  ggtitle('GMR Collected Detections by Month')+ #title
   labs(fill = "Year") #legend title
 
 
@@ -393,7 +398,7 @@ gmr_qual_18_19 %>%
 #optional dataset to use: detections with releases filtered out!
 
 gmr_matched_18_19_no_release <- gmr_matched_18_19  %>% 
-  filter(receiver != "release")
+  dplyr::filter(receiver != "release")
 
 ## Detection Map - Static ----
 base <- get_stamenmap(
@@ -457,10 +462,10 @@ detections_map_plotly <- detections_map_plotly %>% add_markers(
 #Add layout (title + geo stying)
 
 detections_map_plotly <- detections_map_plotly %>% layout(
-  title = 'GMR Detections', geo = geo_styling
+  title = 'GMR Tagged Animal Detections', geo = geo_styling
 )
 
-#View map
+#view map
 detections_map_plotly
 
 ## Summary of Tagged Animals ----
@@ -469,7 +474,7 @@ detections_map_plotly
 
 gmr_tag_summary <- gmr_tag %>% 
   mutate(UTC_RELEASE_DATE_TIME = ymd_hms(UTC_RELEASE_DATE_TIME)) %>% 
-  #filter(UTC_RELEASE_DATE_TIME > '2018-06-01') %>% #select timeframe, specific animals etc.
+  #dplyr::filter(UTC_RELEASE_DATE_TIME > '2018-06-01') %>% #select timeframe, specific animals etc.
   group_by(year = year(UTC_RELEASE_DATE_TIME), COMMON_NAME_E) %>% 
   summarize(count = n(), 
             Meanlength = mean(`LENGTH (m)`, na.rm=TRUE), 
@@ -505,9 +510,9 @@ tag_joined_dets <- left_join(x = gmr_matched_18_19_no_release, y = gmr_tag, by =
 #make sure any redeployed tags have matched within their deployment period only
 
 tag_joined_dets <- tag_joined_dets %>% 
-  filter(datecollected >= UTC_RELEASE_DATE_TIME & datecollected <= enddatetime)
+  dplyr::filter(datecollected >= UTC_RELEASE_DATE_TIME & datecollected <= enddatetime)
 
-View(tag_joined_dets)
+view(tag_joined_dets)
 
 #Lets use this new joined dataframe to make summaries!
 #Avg length per location
@@ -526,7 +531,7 @@ write_csv(gmr_tag_det_summary, "detections_summary.csv", col_names = TRUE)
 gmr_matched_18_19_no_release %>% 
   group_by(catalognumber, station, detectedby, commonname) %>% 
   summarize(count = n()) %>% 
-  select(catalognumber, commonname, detectedby, station, count)
+  dplyr::select(catalognumber, commonname, detectedby, station, count)
 
 # list all receivers each fish was seen on, and a number_of_receivers column too
 
@@ -538,7 +543,7 @@ receivers <- gmr_matched_18_19_no_release %>%
   mutate(number_of_stations = sapply(stations, length)) %>% #sapply: applies a function across a List - in this case we are applying length()
   as.data.frame() 
 
-View(receivers)
+view(receivers)
 
 animal_id_summary <- gmr_matched_18_19_no_release %>% 
   group_by(catalognumber) %>%
@@ -548,7 +553,7 @@ animal_id_summary <- gmr_matched_18_19_no_release %>%
             max = max(datecollected), 
             tracklength = max(datecollected)-min(datecollected))
 
-View(animal_id_summary)
+view(animal_id_summary)
 
 ## Plot of Detection Counts ----
 
@@ -565,7 +570,7 @@ gmr_matched_18_19_no_release  %>%
   geom_bar(stat = "identity", position = "dodge2")+ 
   xlab("Month")+
   ylab("Total Detection Count")+
-  ggtitle('GMR Animal Detections by Month (2018-2019)')+ #title
+  ggtitle('GMR Tagged Animal Detections by Month (2018-2019)')+ #title
   labs(fill = "Year") #legend title
 
 # Other Example Plots ----
@@ -627,5 +632,4 @@ gmr_matched_18_19_no_release %>%
   ggplot(aes(longitude, latitude))+
   facet_wrap(~catalognumber)+ #make one plot per individual
   geom_violin()
-
 
