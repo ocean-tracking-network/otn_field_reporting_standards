@@ -68,7 +68,7 @@ length(heights_above_67)
 #1. What is is the class of the station column in gmr_matched_2018?
 #2. How many rows and columns are in the gmr_matched_2018 dataset?
 
-#Answer 5: The column is a character, and there are 7,693 rows with 36 columns
+#Answer 5: The column is a character, and there are 2,305 rows with 36 columns
 str(gmr_matched_2018)
 # or
 glimpse(gmr_matched_2018)
