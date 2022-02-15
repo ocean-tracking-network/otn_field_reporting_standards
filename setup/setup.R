@@ -9,7 +9,7 @@
 
 
 
-## DAY 1 WORKSHOP REQUIREMENTS ----
+## WORKSHOP REQUIREMENTS ----
 # Tidyverse (data cleaning and arrangement)
 install.packages('tidyverse')
 
