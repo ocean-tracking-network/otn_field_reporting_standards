@@ -36,7 +36,7 @@ gmr_matched_2018 <- read_csv("gmr_matched_detections_2018.csv")
 ~~~
 {: .language-r}
 
-We can now refer to the variable `proj58_matched_2016` to access, manipulate, and view the data from our CSV. In the next sections, we will explore some of the basic operations you can perform on dataframes.
+We can now refer to the variable `gmr_matched_2018` to access, manipulate, and view the data from our CSV. In the next sections, we will explore some of the basic operations you can perform on dataframes.
 
 ### Exploring Detection Extracts
 
