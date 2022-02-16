@@ -3,7 +3,7 @@ title: Telemetry Reports for Tag Owners
 teaching: 30
 exercises: 0
 questions:
-    - "How do I summarize and plot my detections?"
+    - "How do I summarize and plot my animal detections?"
     - "How do I summarize and plot my tag metadata?"
 ---
 

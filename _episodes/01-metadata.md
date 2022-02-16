@@ -1,13 +1,13 @@
 ---
 title: Reporting to the Database
-teaching: 5
+teaching: 30
 exercises: 0
 questions:
-    - "What is the Ocean Tracking Network?"
-    - "How does your local telemetry network interact with OTN?"
-    - "What methods of data analysis will be covered?"
+    - "How do I report to the MigraMar Database?"
+    - "Why should I report my data?"
+    - "How do I receive my detection matches?"
 ---
-## Reporting Data to a OTN Node
+## Reporting Data to an OTN Node
 
 As researchers who are part of the MigraMar Network, you are encouraged to register your projects and report your data and metadata in a timely manner to your Data Manager. This will benefit all researchers in the region through the database's detection-matching system.
 
@@ -15,7 +15,7 @@ This presentation **LINK TO PPT HERE** will cover some of the following topics.
 
 You are encouraged to read the [OTN FAQs Page](https://members.oceantrack.org/faq) for more information.
 
-### How to register with the MigraMar Database?
+### How to register with the MigraMar Database
 
 If you wish to register your project with MigraMar you can email OTNDC@DAL.CA for assistance. We require 3 metadata types: 1) project metadata, 2) instrument deployment metadata and 3) tagging metadata. See the templates [here](https://members.oceantrack.org/data/data-collection). These will soon be translated to Spanish for your use!
 

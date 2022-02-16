@@ -10,7 +10,7 @@ objectives:
     - "Learn how to combine dplyr summaries with ggplot2 plots"
 keypoints:
     - "You can feed output from dplyr's data manipulation functions into ggplot using pipes."
-    - "Plotting various summaries and groupings of your data is good practice at the exploratory phase, and dplyr and ggplot make iterating different ideas straightforward."	  
+    - "Plotting various summaries and groupings of your data is good practice at the exploratory phase, and dplyr and ggplot make iterating different ideas straightforward."  
 ---
 
 ## MigraMar Node
