@@ -11,7 +11,7 @@ questions:
 
 As researchers who are part of the MigraMar Network, you are encouraged to register your projects and report your data and metadata in a timely manner to your Data Manager. This will benefit all researchers in the region through the database's detection-matching system.
 
-This presentation [MigraMar and OTN: a Collaboration](/Resources/MigraMar_student_workshop_2022_02_attendee.pptx) will cover some of the following topics.
+This presentation [MigraMar and OTN: a Collaboration](../Resources/MigraMar_student_workshop_2022_02_attendee.pptx) will cover some of the following topics.
 
 You are encouraged to read the [OTN FAQs Page](https://members.oceantrack.org/faq) for more information.
 
