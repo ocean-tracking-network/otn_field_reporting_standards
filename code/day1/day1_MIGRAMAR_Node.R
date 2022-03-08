@@ -335,7 +335,7 @@ gmr_map_plotly <- gmr_map_plotly %>% layout(
 gmr_map_plotly
 
 ## Summary of Animals Detected ----
-# How many of each animals did we detect from each collaborator, by species, per station
+# How many of each animals did we detect from each collaborator, per station
 library(dplyr) #ensuring that any dplyr functions are not masked by plotly
 
 gmr_qual_summary <- gmr_qual_18_19 %>% 
@@ -379,7 +379,7 @@ view(stationsum)
 gmr_qual_18_19 %>%  
   mutate(datecollected=ymd_hms(datecollected)) %>% #make datetime
   mutate(year_month = floor_date(datecollected, "months")) %>% #round to month
-  group_by(year_month) %>% #can group by station, species etc.
+  group_by(year_month) %>% #can group by station, collaborator etc.
   summarize(count =n()) %>% #how many dets per year_month
   ggplot(aes(x = (month(year_month) %>% as.factor()), 
              y = count, 
