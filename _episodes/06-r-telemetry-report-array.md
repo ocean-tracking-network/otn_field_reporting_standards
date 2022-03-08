@@ -11,7 +11,7 @@ questions:
 
 ### Mapping our stations - Static map
 
-This section will use a set of receiver metadata from the ACT Network, showing stations which may not be included in our Array. We will make a static map of all the receiver stations in three steps, using the package `ggmap`. 
+This section will use a set of receiver metadata from the MigraMar Network, showing stations which are included in our Array. We will make a static map of all the receiver stations in three steps, using the package `ggmap`. 
 
 First, we set a basemap using the aesthetics and bounding box we desire. Then, we will filter our stations dataset for those which we would like to plot on the map. Next, we add the stations onto the basemap and look at our creation! If we are happy with the product, we can export the map as a `.tiff` file using the `ggsave` function, to use outside of R. Other possible export formats include: `.png`, `.jpeg`, `.pdf` and more.
 ~~~
@@ -93,7 +93,7 @@ geo_styling <- list(
 Then, we choose which Deployment Metadata dataset we wish to use and identify the columns containing Latitude and Longitude, using the `plot_geo` function. 
 
 ~~~
-#decide what data you're going to use. Let's use proj61_deploy_plot, which we created above for our static map.
+#decide what data you're going to use. Let's use gmr_deploy_plot, which we created above for our static map.
 
 gmr_map_plotly <- plot_geo(gmr_deploy_plot, lat = ~MeanLat, lon = ~MeanLong)   
 ~~~
