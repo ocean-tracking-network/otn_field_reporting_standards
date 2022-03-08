@@ -95,7 +95,7 @@ heights[complete.cases(heights)] #select only complete cases
 
 #imports file into R. paste the filepath to the unzipped file here!
 
-gmr_matched_2018 <- read_csv("gmr_matched_detections_2018.csv")
+gmr_matched_2018 <- read_csv("data/migramar/gmr_matched_detections_2018.csv")
 
 ## Exploring Detection Extracts ----
 
@@ -147,7 +147,7 @@ gmr_matched_2018 %>% #Take gmr_matched_2018, AND THEN...
 
 ## Joining Detection Extracts ----
 
-gmr_matched_2019 <- read_csv("gmr_matched_detections_2019.csv") #First, read in our file.
+gmr_matched_2019 <- read_csv("data/migramar/gmr_matched_detections_2019.csv") #First, read in our file.
 
 gmr_matched_18_19 <- rbind(gmr_matched_2018, gmr_matched_2019) #Now join the two dataframes
 
@@ -217,15 +217,15 @@ view(gmr_matched_18_19) #Check to make sure we already have our tag matches, fro
 
 # if you do not have the variable created from a previous lesson, you can use the following code to re-create it:
 
-#gmr_matched_2018 <- read_csv("gmr_matched_detections_2018.csv") #Import 2018 detections
-#gmr_matched_2019 <- read_csv("gmr_matched_detections_2019.csv") # Import 2019 detections
+#gmr_matched_2018 <- read_csv("data/migramar/gmr_matched_detections_2018.csv") #Import 2018 detections
+#gmr_matched_2019 <- read_csv("data/migramar/gmr_matched_detections_2019.csv") # Import 2019 detections
 #gmr_matched_18_19 <- rbind(gmr_matched_2018, gmr_matched_2019) #Now join the two dataframes
 # release records for animals often appear in >1 year, this will remove the duplicates
 #gmr_matched_18_19 <- gmr_matched_18_19 %>% distinct() # Use distinct to remove duplicates. 
 
 ## Array Matches ----
-gmr_qual_2018 <- read_csv("gmr_qualified_detections_2018.csv")
-gmr_qual_2019 <- read_csv("gmr_qualified_detections_2019.csv")
+gmr_qual_2018 <- read_csv("data/migramar/gmr_qualified_detections_2018.csv")
+gmr_qual_2019 <- read_csv("data/migramar/gmr_qualified_detections_2019.csv")
 gmr_qual_18_19 <- rbind(gmr_qual_2018, gmr_qual_2019) 
 
 
@@ -234,11 +234,11 @@ gmr_qual_18_19 <- rbind(gmr_qual_2018, gmr_qual_2019)
 library(readxl)
 
 # Deployment Metadata
-gmr_deploy <- read_excel("gmr-deployment-short-form.xls", sheet = "Deployment")
+gmr_deploy <- read_excel("data/migramar/gmr-deployment-short-form.xls", sheet = "Deployment")
 view(gmr_deploy)
 
 # Tag metadata
-gmr_tag <- read_excel("gmr_tagging_metadata.xls", sheet = "Tag Metadata") 
+gmr_tag <- read_excel("data/migramar/gmr_tagging_metadata.xls", sheet = "Tag Metadata") 
 view(gmr_tag)
 
 #keep in mind the timezone of the columns
@@ -264,12 +264,12 @@ base <- get_stamenmap(
 #filter for stations you want to plot - this is very customizable
 
 gmr_deploy_plot <- gmr_deploy %>% 
-  mutate(deploy_date=ymd_hms(`DEPLOY_DATE_TIME   (yyyy-mm-ddThh:mm:ss)`)) %>% #make a datetime
-  mutate(recover_date=ymd_hms(`RECOVER_DATE_TIME (yyyy-mm-ddThh:mm:ss)`)) %>% #make a datetime
+  dplyr::mutate(deploy_date=ymd_hms(`DEPLOY_DATE_TIME   (yyyy-mm-ddThh:mm:ss)`)) %>% #make a datetime
+  dplyr::mutate(recover_date=ymd_hms(`RECOVER_DATE_TIME (yyyy-mm-ddThh:mm:ss)`)) %>% #make a datetime
   dplyr::filter(!is.na(deploy_date)) %>% #no null deploys
   dplyr::filter(deploy_date > '2017-07-03') %>% #only looking at certain deployments, can add start/end dates here
-  group_by(STATION_NO) %>% 
-  summarise(MeanLat=mean(DEPLOY_LAT), MeanLong=mean(DEPLOY_LONG)) #get the mean location per station, in case there is >1 deployment
+  dplyr::group_by(STATION_NO) %>% 
+  dplyr::summarise(MeanLat=mean(DEPLOY_LAT), MeanLong=mean(DEPLOY_LONG)) #get the mean location per station, in case there is >1 deployment
 
 
 #add your stations onto your basemap
@@ -335,7 +335,8 @@ gmr_map_plotly <- gmr_map_plotly %>% layout(
 gmr_map_plotly
 
 ## Summary of Animals Detected ----
-# How many of each animals did we detect from each collaborator, by species, per station
+# How many of each animals did we detect from each collaborator, per station
+library(dplyr) #to ensure no functions are masked by plotly
 
 gmr_qual_summary <- gmr_qual_18_19 %>% 
   dplyr::filter(datecollected > '2018-06-01') %>% #select timeframe, stations etc.
@@ -378,7 +379,7 @@ view(stationsum)
 gmr_qual_18_19 %>%  
   mutate(datecollected=ymd_hms(datecollected)) %>% #make datetime
   mutate(year_month = floor_date(datecollected, "months")) %>% #round to month
-  group_by(year_month) %>% #can group by station, species etc.
+  group_by(year_month) %>% #can group by station, collaborator etc.
   summarize(count =n()) %>% #how many dets per year_month
   ggplot(aes(x = (month(year_month) %>% as.factor()), 
              y = count, 
