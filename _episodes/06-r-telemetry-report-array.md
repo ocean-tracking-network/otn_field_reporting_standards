@@ -31,12 +31,12 @@ base <- get_stamenmap(
 #filter for stations you want to plot - this is very customizable
 
 gmr_deploy_plot <- gmr_deploy %>% 
-  mutate(deploy_date=ymd_hms(`DEPLOY_DATE_TIME   (yyyy-mm-ddThh:mm:ss)`)) %>% #make a datetime
-  mutate(recover_date=ymd_hms(`RECOVER_DATE_TIME (yyyy-mm-ddThh:mm:ss)`)) %>% #make a datetime
+  dplyr::mutate(deploy_date=ymd_hms(`DEPLOY_DATE_TIME   (yyyy-mm-ddThh:mm:ss)`)) %>% #make a datetime
+  dplyr::mutate(recover_date=ymd_hms(`RECOVER_DATE_TIME (yyyy-mm-ddThh:mm:ss)`)) %>% #make a datetime
   dplyr::filter(!is.na(deploy_date)) %>% #no null deploys
   dplyr::filter(deploy_date > '2017-07-03') %>% #only looking at certain deployments, can add start/end dates here
-  group_by(STATION_NO) %>% 
-  summarise(MeanLat=mean(DEPLOY_LAT), MeanLong=mean(DEPLOY_LONG)) #get the mean location per station, in case there is >1 deployment
+  dplyr::group_by(STATION_NO) %>% 
+  dplyr::summarise(MeanLat=mean(DEPLOY_LAT), MeanLong=mean(DEPLOY_LONG)) #get the mean location per station, in case there is >1 deployment
 
 
 #add your stations onto your basemap
@@ -131,7 +131,8 @@ To save this interactive map as an `.html` file, you can explore the function ht
 Let's find out more about the animals detected by our array! These summary statistics, created using `dplyr` functions, could be used to help determine the how successful each of your stations has been at detecting tagged animals. We will also learn how to export our results using `write_csv`.
 
 ~~~
-# How many of each animal did we detect from each collaborator, by species, per station
+# How many of each animal did we detect from each collaborator, per station
+library(dplyr) #to ensure no functions have been masked by plotly
 
 gmr_qual_summary <- gmr_qual_18_19 %>% 
   dplyr::filter(datecollected > '2018-06-01') %>% #select timeframe, stations etc.
@@ -185,7 +186,7 @@ Lets make an informative plot using `ggplot` showing the number of matched detec
 gmr_qual_18_19 %>%  
   mutate(datecollected=ymd_hms(datecollected)) %>% #make datetime
   mutate(year_month = floor_date(datecollected, "months")) %>% #round to month
-  group_by(year_month) %>% #can group by station, species etc.
+  group_by(year_month) %>% #can group by station, collaborator etc.
   summarize(count =n()) %>% #how many dets per year_month
   ggplot(aes(x = (month(year_month) %>% as.factor()), 
              y = count, 
