@@ -37,7 +37,7 @@ view(gmr_matched_18_19) #Check to make sure we already have our tag matches, fro
 Next, we will load in and join our Array matches. Ensure you replace the filepath to show the files as they appear in your working directory.
 
 ~~~
-gmr_qual_2018 <- read_csv("gdata/migramar/gmr_qualified_detections_2018.csv")
+gmr_qual_2018 <- read_csv("data/migramar/gmr_qualified_detections_2018.csv")
 gmr_qual_2019 <- read_csv("data/migramar/gmr_qualified_detections_2019.csv")
 gmr_qual_18_19 <- rbind(gmr_qual_2018, gmr_qual_2019) 
 ~~~
