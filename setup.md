@@ -4,7 +4,7 @@ title: Setup
 
 ## Requirements
 
-No materials will be required in advance of this workshop
+**No materials will be required in advance of this workshop**
 
 
 {% include links.md %}
