@@ -18,20 +18,8 @@ Please contact **OTNDC@DAL.CA** if you are interested in connecting with your re
 
 ##  Intended Audience
 
-This set of workshop material is directed at researchers who are ready to begin the work of acoustic telemetry data analysis. The first few lessons will begin with introductory R - no previous coding experince required. 
-
-If you'd like to refresh your R coding skills outside of this workshop curriculum, we recommend [Data Analysis and Visualization in R for Ecologists](https://datacarpentry.org/R-ecology-lesson/ "Website for R ecology lesson") as a good starting point. Much of this content is included in the first two lessons of this workshop.
+This set of workshop material is directed at OTN reporting researchers who want more information about how to report to OTN, and what happens behind the scenes in the OTN data system.
 
 ##  Getting Started
 
-Please follow the instrucions in the **"Setup"** tab along the top menu to install all required software, packages and data files. If you have questions or are running into errors please reach out to **OTNDC@DAL.CA** for support.
-
-##  Intro to Telemetry Data Analysis
-
-OTN-affiliated telemetry networks all provide researchers with pre-formatted datasets, which are easily ingested into these data analysis tools.
-
-Before diving in to a lot of analysis, it is important to take the time to clean and sort your dataset, taking the pre-formatted files and combining them in different ways, allowing you to analyse the data with different questions in mind.
-
-There are multiple R packages necessary for efficient and thorough telemetry data analysis.  General packages that allow for data cleaning and arrangement, dataset manipulation and visualization, network analysis and temporo-spatial locating are used in conjuction with the telemetry analysis tool packages `VTtrack`, `actel` and `glatos`. 
-
-This workshop will cover only basic `tidyverse` and `ggplot2` functions, but the curriculum can act as a stepping-stone towards more complex analyses.
+There will be no setup needed for this workshop.

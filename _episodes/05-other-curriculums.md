@@ -1,12 +1,26 @@
 ---
-title: Other OTN Telemetry Curriculums
+title: Beyond Telemetry
 teaching: 0
 exercises: 0
 questions:
-- "How can I expand my learning?"
+- "What other ways does OTN assist the telemetry world?"
 ---
 
-OTN has hosted other workshops in the past which contain different code sets that may be useful to explore after this workshop.
+### Beyond Telemetry Reporting
+
+OTN serves the telemetry and scientific community through its primary purpose, as a data agregation node, but that is not where the community support ends.  In addition to collecting and dispersing telemetry records, OTN has the following aspects:
+
+## OBIS publishing
+
+## DOI minting
+
+## Study Halls
+
+## Workshops
+OTN has hosted many workshops in the past which contain different code sets relating to telemetry analysis.
+
+- [OTN's Workshop Base Code](https://github.com/ocean-tracking-network/otn-workshop-base)
+    - This is used to create custom workshops when requested.
 
 - [General telemetry workflow](https://ocean-tracking-network.github.io/jb-acoustic-telemetry/index.html)
 
@@ -14,17 +28,7 @@ OTN has hosted other workshops in the past which contain different code sets tha
 
 - [GLATOS meeting workshop 2020](https://ocean-tracking-network.github.io/2020-02-27-glatos-workshop/index.html)
 
-- [GLATOS meeting intro to R 2020](https://caitlinbate.github.io/2020-02-23-glatos/index.html)
-
 - [DFO workshop 2020](https://ocean-tracking-network.github.io/2020-03-11-DFOBIO-telemetry-workshop/)
-
-- [SPG workshop 2020](https://ocean-tracking-network.github.io/2020-07-16-OTNSPG-R-workshop/index.html). [Videos available on our YouTube here](https://youtube.com/playlist?list=PL_06zLsCWuDTeUyd5p2YWrullO5RmKLDA) 
-
-- [FACT workshop 2020](https://ocean-tracking-network.github.io/2020-12-17-telemetry-packages-FACT/index.html)
-
-- [GLATOS workshop 2021](https://ocean-tracking-network.github.io/2021-03-30-glatos-workshop/)
-
-- [ACT/MATOS workshop 2021](https://ocean-tracking-network.github.io/2021-04-13-act-workshop/)
 
 - [FACT workshop 2021](https://ocean-tracking-network.github.io/2021-12-15-fact-workshop/)
 
