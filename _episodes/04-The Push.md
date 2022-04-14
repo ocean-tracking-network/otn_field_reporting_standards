@@ -16,7 +16,7 @@ keypoints:
 - "Detection Extracts are the main end product of the Push"
 ---
 
-## What it a Data Push?
+## What is a Data Push?
 
 A Data Push is when the OTN data system is re-verified and any new relevant information is sent to researchers. New data being brought in is cut off so that what's in the system can be reliably verified. This way any issues found can be fixed and the data can be in the best form based on the information available at that moment. Once verification is done detections are matched across nodes and detection extracts are sent out to researchers. This is also the time when summary schemas like `discovery`, `erddap`, and `geoserver` are updated with the newly verified and updated data.
 
