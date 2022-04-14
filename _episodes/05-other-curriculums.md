@@ -5,7 +5,7 @@ title: Beyond Telemetry
 teaching: 0
 exercises: 0
 questions:
-- "What other ways does OTN support animal telemetry researchers?"
+- "In what other ways does OTN support animal telemetry researchers?"
 ---
 
 
