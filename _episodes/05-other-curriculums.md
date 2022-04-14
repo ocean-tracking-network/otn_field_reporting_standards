@@ -12,9 +12,17 @@ OTN serves the telemetry and scientific community through its primary purpose, a
 
 ## OBIS publishing
 
+OTN is an OBIS thematic node, tasked with curating and coordinating the publishing of aquatic animal tracking data. OTN adheres closely to Darwin Core standards, throughout the data reporting process.
+
 ## DOI minting
 
+OTN creates DOI data sets when requested by researchers. These DOIs primarily support publications and descriptive links are held on the OTN members portal [publication data repository](https://members.oceantrack.org/data/pblctn_data).
+
 ## Study Halls
+
+To reduce the stress of working in isolation, especially for early career researchers, OTN established a weekly 'Study Hall' session. Networking and collaborative problem solving in a virtual setting are hosted with a broad geographic attendance.
+
+[study hall map](fig/study_hall_attendees.jpg)
 
 ## Workshops
 OTN has hosted many workshops in the past which contain different code sets relating to telemetry analysis.
