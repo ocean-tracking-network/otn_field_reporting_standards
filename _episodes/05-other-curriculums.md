@@ -1,12 +1,16 @@
 ---
+
 title: Beyond Telemetry
+
 teaching: 0
 exercises: 0
 questions:
 - "What other ways does OTN assist the telemetry world?"
 ---
 
+
 ### Beyond Telemetry Reporting
+
 
 OTN serves the telemetry and scientific community through its primary purpose, as a data agregation node, but that is not where the community support ends.  In addition to collecting and dispersing telemetry records, OTN has the following aspects:
 
