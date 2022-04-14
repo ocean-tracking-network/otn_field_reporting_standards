@@ -26,7 +26,7 @@ OTN creates DOI data sets when requested by researchers. These DOIs primarily su
 
 To reduce the stress of working in isolation, especially for early career researchers, OTN established a weekly 'Study Hall' session. Networking and collaborative problem solving in a virtual setting are hosted with a broad geographic attendance.
 
-[study hall map](fig/study_hall_attendees.jpg)
+![study hall map](../fig/study_hall_attendees.jpg)
 
 ## Workshops
 OTN has hosted many workshops in the past which contain different code sets relating to telemetry analysis.
