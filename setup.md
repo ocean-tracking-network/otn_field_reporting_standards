@@ -2,7 +2,6 @@
 title: Setup
 ---
 
-## Requirements
 
 **No materials will be required in advance of this workshop**
 
