@@ -5,18 +5,18 @@ title: Beyond Telemetry
 teaching: 0
 exercises: 0
 questions:
-- "What other ways does OTN assist the telemetry world?"
+- "What other ways does OTN support animal telemetry researchers?"
 ---
 
 
 ### Beyond Telemetry Reporting
 
 
-OTN serves the telemetry and scientific community through its primary purpose, as a data agregation node, but that is not where the community support ends.  In addition to collecting and dispersing telemetry records, OTN has the following aspects:
+OTN serves the telemetry and broader scientific community through its primary purpose, as a data aggregation node, but that is not where the community support ends.  In addition to curating and brokering interproject telemetry records, OTN has the following aspects:
 
 ## OBIS publishing
 
-OTN is an OBIS thematic node, tasked with curating and coordinating the publishing of aquatic animal tracking data. OTN adheres closely to Darwin Core standards, throughout the data reporting process.
+OTN is an OBIS thematic node, tasked with curating and coordinating the publishing of aquatic animal tracking data. OTN adheres closely to Darwin Core standards throughout the data reporting process.
 
 ## DOI minting
 
