@@ -86,8 +86,6 @@ In order to create meaningful Detection Extracts, OTN and affiliated Nodes only 
  
 # Backing Up Your Data
 
-As with any database, it is important to make sure the data held by the OTN Database Node is protected. To ensure you are protected your Database and potentially the files contributed to your Node by the research community you support should be backed up properly, in the event your primary Database crashes, is corrupted, is lost, or any other unexpected event. 
+OTN data systems are designed with redundancy that ensures zero data loss in the event of any hardware failure. OTN has a plan in place for data archiving with CIOOS, should the network cease to be supported by our funding agency.
 
-You should discuss and coordinate a backup strategy with the groups or institutions responsible for your Database's administration, and find out their policies and practices for performing backups. Backup strategies may vary from group to group but it is a good idea to make sure they are adequately backing up your data **daily**, if not multiple times a day, and keep copies of backups in **different physical locations** in the case that something happens at a single location. 
-
-OTN is happy to offer guidance and recommendations to any group.
+{% include links.md %}
