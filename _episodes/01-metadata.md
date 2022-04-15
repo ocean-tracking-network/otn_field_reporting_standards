@@ -6,6 +6,10 @@ questions:
     - "How do I report to the OTN Database?"
     - "Why should I report my data?"
     - "How do I receive my detection matches?"
+keypoints:
+    - "Metadata templates are used to report records"
+    - "OTN matches data and metadata across numerous geographic areas"
+    - "Detection extracts are returned to researchers after data pushes"
 ---
 ## Reporting Data to an OTN Node
 
@@ -17,7 +21,12 @@ You are encouraged to read the [OTN FAQs Page](https://members.oceantrack.org/fa
 
 ### How to register with the OTN Database
 
-If you wish to register your project with OTN you can email OTNDC@DAL.CA for assistance. We require 3 metadata types: 1) project metadata, 2) instrument deployment metadata and 3) tagging metadata. See the templates [here](https://members.oceantrack.org/data/data-collection). 
+In order to register a project with OTN, we require 3 metadata types: 
+1. project metadata
+1. instrument deployment metadata 
+1. tagging metadata
+
+See the templates [here](https://members.oceantrack.org/data/data-collection).  OTNDC@DAL.CA is the best contact for assistance
 
 ### What is the benefit of registering with the OTN Database?
 
@@ -36,4 +45,6 @@ As researchers who have already submitted data and metadata to the OTN Database,
 
 ### What are Detection Extract data products?
 
-OTN and all of its partner Nodes create Detection Extracts on a semi-regular basis, approximately every 4 months, following a cross-Node coordinated detection matching event known as a Data Push. These Detection Extract files contain only the detections for the year corresponding to the suffix on the file name. See the detailed documentation here [Detection Extract Documentation](https://members.oceantrack.org/data/otn-detection-extract-documentation-matched-to-animals).
+OTN and all of its partner Nodes create Detection Extracts on a semi-regular basis, approximately every 4 months, following a cross-Node coordinated detection matching event known as a Data Push. These Detection Extract files contain only the detections for the year corresponding to the suffix on the file name. See the detailed [detection extract documentation](https://members.oceantrack.org/data/otn-detection-extract-documentation-matched-to-animals) for more information.
+
+{% include links.md %}
