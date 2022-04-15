@@ -6,6 +6,8 @@ teaching: 0
 exercises: 0
 questions:
 - "In what other ways does OTN support animal telemetry researchers?"
+keypoints:
+- ""
 ---
 
 
@@ -17,6 +19,7 @@ OTN serves the telemetry and broader scientific community through its primary pu
 ## OBIS publishing
 
 OTN is an OBIS thematic node, tasked with curating and coordinating the publishing of aquatic animal tracking data. OTN adheres closely to Darwin Core standards throughout the data reporting process.
+OTN is involved with the development of OBIS members, tools and processes, through training workshops and code sprints.
 
 ## DOI minting
 
@@ -29,19 +32,20 @@ To reduce the stress of working in isolation, especially for early career resear
 ![study hall map](../fig/study_hall_attendees.jpg)
 
 ## Workshops
-OTN has hosted many workshops in the past which contain different code sets relating to telemetry analysis.
+OTN has hosted many workshops in the past which contain different code sets relating to telemetry analysis. Many of our Intro to R workshops are based upon this curriculum from [The Carpentries](https://datacarpentry.org/R-ecology-lesson/).
 
 - [OTN's Workshop Base Code](https://github.com/ocean-tracking-network/otn-workshop-base)
     - This is used to create custom workshops when requested.
 
-- [General telemetry workflow](https://ocean-tracking-network.github.io/jb-acoustic-telemetry/index.html)
-
-- IdeasOTN Telemetry Workshop Series 2020: [code available here](https://github.com/kimwhoriskey/ideasOTNtws2020code) and [videos available on our YouTube here](https://www.youtube.com/playlist?list=PL_06zLsCWuDRnmIKaMHTBlg5KTKS76k6u)
-
-- [GLATOS meeting workshop 2020](https://ocean-tracking-network.github.io/2020-02-27-glatos-workshop/index.html)
+Past custom workshops with repositories and webpages:
+- [GLATOS meeting workshop 2020](https://ocean-tracking-network.github.io/2020-02-27-glatos-workshop)
 
 - [DFO workshop 2020](https://ocean-tracking-network.github.io/2020-03-11-DFOBIO-telemetry-workshop/)
 
 - [FACT workshop 2021](https://ocean-tracking-network.github.io/2021-12-15-fact-workshop/)
 
-Many of our Intro to R workshops are based upon this curriculum from [The Carpentries](https://datacarpentry.org/R-ecology-lesson/).
+- IdeasOTN Telemetry Workshop Series 2020: [code repository ](https://github.com/kimwhoriskey/ideasOTNtws2020code) and [YouTube recordings](https://www.youtube.com/playlist?list=PL_06zLsCWuDRnmIKaMHTBlg5KTKS76k6u)
+
+- [General telemetry workflow](https://ocean-tracking-network.github.io/jb-acoustic-telemetry/index.html)
+
+{% include links.md %}

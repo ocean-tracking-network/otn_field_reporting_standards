@@ -6,6 +6,9 @@ questions:
     - "What is the Ocean Tracking Network?"
     - "How does your local telemetry network interact with OTN?"
     - "What methods of data analysis will be covered?"
+keypoints:
+    - "OTN is a global organization."
+    - "More informatin is available on the members portal"
 ---
 ## Intro to OTN
 
@@ -20,6 +23,11 @@ Please contact **OTNDC@DAL.CA** if you are interested in connecting with your re
 
 This set of workshop material is directed at OTN reporting researchers who want more information about how to report to OTN, and what happens behind the scenes in the OTN data system.
 
-##  Getting Started
+In this walkthrough we will be looking at:
+- How to report to OTN, what to report to OTN, how to access OTN output
+- The OTN system of data nodes
+- Database systems, structure and outputs
+- All about OTN data pushes
+- What else OTN does to support the scientific community.
 
-There will be no setup needed for this workshop.
+{% include links.md %}
