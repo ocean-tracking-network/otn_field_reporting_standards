@@ -8,7 +8,7 @@ questions:
     - "What methods of data analysis will be covered?"
 keypoints:
     - "OTN is a global organization."
-    - "More informatin is available on the members portal"
+    - "More information is available on the members portal"
 ---
 ## Intro to OTN
 
