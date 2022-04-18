@@ -19,7 +19,7 @@ A Data Push is when the OTN data system is re-verified and any new relevant info
 
 ### What is the Push Schedule?
 
-Push events happen **three** times a year. They start on the third Thursday of the "push month" which are February, June, and October. This date is the cut-off date for all data-loading: no records can be loaded after this.
+Push events happen **three** times a year. They start on the third Thursday of the "push month" which are February, June, and October. This date is the cut-off date for all data-loading: no records can be loaded after this until important verification and processing tasks are completed.
 
 With the increased number of Nodes joining the Pushes, we are announcing the schedule for the next year. Please prepare in advance and mark your calendars.
 
@@ -32,20 +32,22 @@ Push schedule through 2023:
 
 ### Activities During the Push
 
-Node Managers have two main jobs during a Push:
-1. The first job is to get the Node's data loaded in time for the cut-off date. Data will be submitted by researchers on a continuous basis, but will likely increase just before a cut-off date. We recommend loading data as it arrives, to attempt to prevent a backlog near the Push date.
-2. The second job for Node Managers is to create and send out Detection Extracts when they are ready to be made. This will be done using the `detections - create detection extracts` notebook.
+Both node managers and data analysts have important roles during a push:
 
-Once the cut-off date has passed Node Managers are "off duty"! When it's time for Detection Extracts to be created and disseminated that task will be assigned to the Node Managers, but this does **not** signify the end of the Push. There are several more "behind the scenes" steps required.
+Node Managers need to ensure that the following is done:
+1. The first job is to get the Node's data loaded in time for the cut-off date. Data is submitted by researchers on a continuous basis, and generally increases just before a cut-off date. We prioritize loading data as it arrives, to attempt to prevent a backlog near the Push date.
+1. The second job for Node Managers is to create and send out Detection Extracts when they are ready to be made. This is done using a custom jupyter notebook written in Python.
+
+Once the cut-off date has passed Node Managers are "off duty", then when it's time for Detection Extracts to be created and disseminated that task is assigned to the Node Managers, but this does **not** signify the end of the Push. There are several more "behind the scenes" steps required.
 
 Data Analysts have many jobs during a Push, including:
 1. verify all schemas and all data types
-2. verify all inherited tables for structure, permissions, and data formatting
-3. perform cross-node matching
-4. run the "discovery process" to update the summary tables
-5. perform robust back-ups
-6. push data into production databases
-7. repopulate our website
+1. verify all inherited tables for structure, permissions, and data formatting
+1. perform cross-node matching
+1. run the "discovery process" to update the summary tables
+1. perform robust back-ups
+1. push data into production databases
+1. repopulate our website
 
 # Detection Extracts
 
@@ -69,3 +71,5 @@ During the Push process, any new detection matches that are made are noted in th
 Using these fields, the `detections-create detection extracts` jupyter notebook can determine which extracts need to be created for each push. During this notebook, all relevant contacts (based on folder access in the Data Portal repository) are identified and notified via email of their new detection products.
 
 Once all extracts are made and uploaded to the file management system, and all emails have been sent to researchers, the final step is to ensure we mark in the database table that we have completed these tasks.
+
+{% include links.md %}
