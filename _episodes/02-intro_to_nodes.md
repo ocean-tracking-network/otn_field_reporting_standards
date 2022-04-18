@@ -7,9 +7,11 @@ questions:
 objectives:
 - "Understand the relationship between OTN and its Nodes."
 keypoints:
-- "Nodes help telemetry researchers stay connected."
-- "Nodes are fully compatible with each other."
-- "OTN provides support to node managers."
+
+- "Nodes help telemetry researchers stay connected"
+- "Nodes are fully compatible"
+- "OTN supports Node Managers"
+
 ---
 
 ## What is a Node?
@@ -22,17 +24,18 @@ OTN and affiliated networks provide automated cross-referencing of your detectio
 
 For your interest, we have included here a presentation from current Node Managers, describing the relationship between OTN and its Nodes, the benefits of the Node system as a community outgrows more organic person-to-person sharing, as well as a realistic understanding of the work involved in hosting/maintaining a Node. 
 
-- [Youtube Recording](https://youtu.be/sIYCGvLz9SQ)
+- [YouTube Recording](https://youtu.be/sIYCGvLz9SQ) 
+
 
 
 ## Node Managers
 
 To date, the greatest successes in organizing telemetry communities has come from identifying and working with local on-the-ground Node Managers for each affiliated Node. The trusted and connected 'data wranglers' have been essential to building and maintaining the culture and sense of trust in each telemetry group.
 
-Node managers have been trained from groups including FACT, ACT, SAF, PATH, PIRAT and MigraMar.  OTNDC staff assist with node management for NEP, SAF and OTN.  
+Node Managers have been trained from groups including FACT, ACT, SAF, PATH, PIRAT and MigraMar.  OTNDC staff assist with node management for NEP, SAF and OTN.  
 
 
-![Nodes and Data Partners](../fig/node_map.jpg)
+![Nodes and Data Partners](../fig/node_map.JPG)
 
 
 ## Node Training
@@ -41,6 +44,6 @@ Each year OTN hosts a training session for Node Managers. This session is not on
 
 ## Data Partners
 
-In addition to the OTN supported nodes, we partner with numerous telemetry networks to ensure that effort and science is shared regardless of disparate database structures. Data system cross-walk efforts continue with ETN, IMOS and GLATOS.
+In addition to OTN-supported nodes, we partner with numerous telemetry networks to ensure that effort and science is shared regardless of disparate database structures. Data system cross-walk efforts continue with ETN, IMOS and GLATOS.
 
 {% include links.md %}
