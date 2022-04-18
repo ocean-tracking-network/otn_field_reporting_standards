@@ -21,10 +21,10 @@ You are encouraged to read the [OTN FAQs Page](https://members.oceantrack.org/fa
 
 ### How to register with the OTN Database
 
-In order to register a project with OTN, we require 3 metadata types: 
+In order to register a project with OTN, we require 3 metadata types:
 1. project metadata
-1. instrument deployment metadata 
-1. tagging metadata
+2. instrument deployment metadata
+3. tagging metadata
 
 See the templates [here](https://members.oceantrack.org/data/data-collection).  OTNDC@DAL.CA is the best contact for assistance
 
@@ -34,7 +34,7 @@ OTN and affiliated networks provide automated cross-referencing of your detectio
 
 ### What is the Data Portal?
 
-OTN's `Data Portal` [website](https://members.oceantrack.org) is similar to DropBox or another file repository service. While there are helpful links and tools to explore, this site is mainly used to hold private repository folders for each project. In your project folder, you can add files which can be viewed ONLY by anyone who has been given access. These folders are also where the Data Manager will upload your Detection Extracts when they are ready. 
+OTN's `Data Portal` [website](https://members.oceantrack.org) is similar to DropBox or another file repository service. While there are helpful links and tools to explore, this site is mainly used to hold private repository folders for each project. In your project folder, you can add files which can be viewed ONLY by anyone who has been given access. These folders are also where the Data Manager will upload your Detection Extracts when they are ready.
 
 OTN's `database` is built on PostgreSQL/PostGIS and is hosted on OTN hardware at Dalhousie University. Many partner Nodes are hosted at other locations. Users do not have direct write access to the database: the files posted in your Data Portal folder will be downloaded, quality controlled and loaded into the database by a Data Manager.
 
@@ -45,6 +45,6 @@ As researchers who have already submitted data and metadata to the OTN Database,
 
 ### What are Detection Extract data products?
 
-OTN and all of its partner Nodes create Detection Extracts on a semi-regular basis, approximately every 4 months, following a cross-Node coordinated detection matching event known as a Data Push. These Detection Extract files contain only the detections for the year corresponding to the suffix on the file name. See the detailed [detection extract documentation](https://members.oceantrack.org/data/otn-detection-extract-documentation-matched-to-animals) for more information.
+OTN and all of its partner Nodes create Detection Extracts on a semi-regular basis (approximately every 4 months) following a cross-Node coordinated detection matching event known as a Data Push. These Detection Extract files contain only the detections for the year corresponding to the suffix on the file name. See the detailed [detection extract documentation](https://members.oceantrack.org/data/otn-detection-extract-documentation-matched-to-animals) for more information.
 
 {% include links.md %}
