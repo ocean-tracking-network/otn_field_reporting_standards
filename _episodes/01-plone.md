@@ -3,48 +3,117 @@ title: Introduction to the Data Portal
 teaching: 30
 exercises: 0
 questions:
-    - "How do I report to the OTN Database?"
-    - "Why should I report my data?"
-    - "How do I receive my detection matches?"
+    - "What is the Data Portal?"
+    - "What features will be most useful to me?"
 keypoints:
-    - "Metadata templates are used to report records"
-    - "OTN matches data and metadata across numerous geographic areas"
-    - "Detection extracts are returned to researchers after data pushes"
+    - "The Data Portal has many useful features"
 ---
-## Reporting Data to an OTN Node
 
-As researchers who are part of the OTN Network, you are encouraged to register your projects and report your data and metadata in a timely manner to your Data Manager. This will benefit all researchers in the region through the database's detection-matching system.
+# What is the Data Portal?
 
-**This presentation** [ONC and OTN: a Collaboration](../files/ONC_workshop_2022_04.pptx) will cover some of the following topics.
+OTN's `Data Portal` [website](https://members.oceantrack.org) is similar to DropBox or another file repository service. This is built using the open-source `Plone` software. While there are helpful links and tools to explore, this site is mainly used to hold private repository folders for each project. In a project folder, you can add files which can be viewed ONLY by anyone who has been given access. These folders are also where the Data Manager will upload Detection Extracts when they are ready.
 
-You are encouraged to read the [OTN FAQs Page](https://members.oceantrack.org/faq) for more information.
+OTN's `database` is built on PostgreSQL/PostGIS and is hosted on OTN hardware at Dalhousie University. Many partner Nodes are hosted at other locations. Users do not have direct write access to the database: the files posted in a Data Portal folder will be downloaded, quality controlled and loaded into the database by a Data Manager.
 
-### How to register with the OTN Database
+# Useful tools for Field Techs
 
-In order to register a project with OTN, we require 3 metadata types:
-1. project metadata
-2. instrument deployment metadata
-3. tagging metadata
+OTN's Data Portal website is used extensively by OTNHQ staff members for many purposes. A few of these are highlighted below!
 
-See the templates [here](https://members.oceantrack.org/data/data-collection).  OTNDC@DAL.CA is the best contact for assistance
+## Project Pages
 
-### What is the benefit of registering with the OTN Database?
+Each project which has registered with OTN or a partner Node will have a public project summary page. These are searchable from the `Home page` using the interactive map tool, or the map search option. An example project page for project NCAT is here [https://members.oceantrack.org/OTN/project?ccode=NCAT](https://members.oceantrack.org/OTN/project?ccode=NCAT).
 
-OTN and affiliated networks provide automated cross-referencing of your detection data with other tags in the system to help resolve "mystery detections" and provide detection data to taggers in other regions. OTN's Data Manager will also extensively quality control your submitted metadata for errors to ensure the most accurate records possible are stored in the database. OTN's database and Data Portal website are excellent places to archive your datasets for future use and sharing with collaborators. We offer pathways to publish your datasets with [OBIS](https://obis.org/), and via open data portals like ERDDAP, GeoServer etc. The data-product format returned by OTN is directly ingestible by analysis packages such as [glatos](https://github.com/ocean-tracking-network/glatos) and [resonATe](https://gitlab.oceantrack.org/otndc/resonate) for ease of analysis. OTN offers support for the use of these packages and tools.
+This page contains the following sections:
 
-### What is the Data Portal?
+1. TItle, citation, Node membership information and collaboration type (Tracker, Deployment or Data)
+2. An interactive map showing non-clickable tagging sites and clickable station-history information
+3. A list of the species studied by the project
+4. Contact information for Principal Investigators and Points of Contact
+5. Related URLs including:
+		* **for logged in users** - a link to the project's private repository
+		* **for logged in users** - a link to the `Detection Extracts` subfolder in the project's repository
+		* a `stations` KML file containing the GPS locations of all stations
+		* a `deployments` CSV containing a summary of each deployment
+6. A summary of all the projects who have been detected by the project and where those project's tags have been detected
 
-OTN's `Data Portal` [website](https://members.oceantrack.org) is similar to DropBox or another file repository service. While there are helpful links and tools to explore, this site is mainly used to hold private repository folders for each project. In your project folder, you can add files which can be viewed ONLY by anyone who has been given access. These folders are also where the Data Manager will upload your Detection Extracts when they are ready.
+## Project repository
 
-OTN's `database` is built on PostgreSQL/PostGIS and is hosted on OTN hardware at Dalhousie University. Many partner Nodes are hosted at other locations. Users do not have direct write access to the database: the files posted in your Data Portal folder will be downloaded, quality controlled and loaded into the database by a Data Manager.
+A project's repository folder is only accessible to logged in Plone users who have been given specific permission to view the folder. OTN field staff should have access to all folders.
 
+This is where researchers, and OTN staff, can share files with each other in a secure manner, ensuring they are archived properly. Below, a few relevant features are highlighted.
 
-## Receiving Detection Matches
+### Data and Metadata
 
-As researchers who have already submitted data and metadata to the OTN Database, you will receive detection-matches for the tags detected on your array and the tags you have release. These are in standard formats call "Detection Extracts" and are provided to you several times a year during a "data push".
+This is a standard subfolder available in all project repository folders. This is the location for all tagging and deployment metadata, offloaded data files, and other useful documents. For OTN projects, often this folder is organized into `missions` and/or `years` for better coordination.
 
-### What are Detection Extract data products?
+Files and folders can be added using the `Add new...` option on the left-hand menu.
 
-OTN and all of its partner Nodes create Detection Extracts on a semi-regular basis (approximately every 4 months) following a cross-Node coordinated detection matching event known as a Data Push. These Detection Extract files contain only the detections for the year corresponding to the suffix on the file name. See the detailed [detection extract documentation](https://members.oceantrack.org/data/otn-detection-extract-documentation-matched-to-animals) for more information.
+#### Batch Uploading
+
+If you are uploading multiple files at once, into the same folder, you can use the `Batch Upload` function to save time.
+
+1. Choose the `Contents` option on the left-hand menu
+2. Choose the `Upload` option
+3. You can browse for files or drag-and-drop them into the Upload window, until all relevant files are selected.
+4. Click the `Upload` button and wait for the upload to complete before navigating away.
+5. When you are finished, return to your standard folder display by choosing `View` from the left-hand menu.
+
+**please do not Batch Upload single VRL files - these should be zipped together**
+
+#### Editing/Renaming
+
+You can edit a file or folder after you've created it, using the `Edit` option on the left-hand menu.
+
+Editing a folder:
+- ensure you are inside the folder when you press `Edit`
+- you will be able to change the description, title, etc.
+
+Editing a file:
+- ensure you have the file open when you press `Edit`
+- you will be able to choose `replace with new file`, or you may edit the title, description etc.
+
+Plone has a version-control history, so it is possible to revert back to a previous version of a file if you edited it by mistake.
+
+OTNDC staff receive an email each time you edit (or post) a file.
+
+#### Finding a current file
+
+Within the `Data and Metadata` subfolder, it can often be difficult to find the current year/mission folder. This is because the default sorting is based on the date the file/folder was created, from oldest to newest. We have manually re-sorted for many projects, so that the newest folder is at the top for easier access, but this is not the default.
+
+Please ensure you scroll to check all available mission/year folders before you determine which is the newest.
+
+Inside the newest folder, there may be multiple files. If the titles/descriptions do not make it clear which one is newest you can always review the `last modified` date to determine this.
+
+When in doubt: please ask OTNDC Staff to help you find the newest file or export a clean file from the database for you. This will make everyone's lives easier!
+
+### Detection Extracts
+
+OTN and its partner Nodes create Detection Extracts on a semi-regular basis (approximately every 4 months) following a cross-Node coordinated detection matching event known as a Data Push. These Detection Extract files contain only the detections for the year corresponding to the suffix on the file name. See the detailed [detection extract documentation](https://members.oceantrack.org/data/otn-detection-extract-documentation-matched-to-animals) for more information.
+
+If you are ever interested in learning more about what a project has detected, you are welcome to check out the content in the Detection Extracts. Reminder that you **can not** share this information without reviewing the [OTN Data Policy](https://members.oceantrack.org/data/policies) or contacting OTNDC Staff for guidance.
+
+### Equipment
+
+This subfolder is the location where Shipping Lists can be posted and reviewed, if relevant. The shipping/inventory tracking workflow has moved to the [SnipeIT inventory system](https://ops.oceantrack.org/snipeit/).
+
+### Background
+
+This subfolder is the location where OTN Project Management staff will upload loan agreements, project plans and legal paperwork. This folder is only visible to OTN staff members by default.
+
+## FAQ page
+
+OTNDC has created a [Frequently Asked Questions](https://members.oceantrack.org/faq) page on the Data Portal. This will contain useful information about OTN's policies, Nodes, metadata, and data products. It is recommended you refer to this often and familiarize yourself with the answers to some of these questions, in case you are asked by partners.
+
+If there are topics you think should be added, please reach out to OTNDC - this page can be updated at any time to remain valuable to users.
+
+## Statistics Page
+
+OTNDC has created a [Statistics](https://members.oceantrack.org/statistics) page on the Data Portal. These statistics are updated every 4 months during a Data Push, and can be used for presentations, exploration and general interest. Summaries include:
+
+- an interactive barplot showing the number of tagged individuals, per species, coloured by IUCN status
+- a pie chart showing the total number of detections in the OTN database, by type
+- an interactive chart showing the number of receivers "active" each month, coloured by year
+- an interactive map showing the "currently active" receivers we know are still in the water at the time of publishing. Only Node's whose data policies allow the publishing of station locations are included (not FACT, ACT or MigraMar)
+
 
 {% include links.md %}
