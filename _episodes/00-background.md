@@ -22,13 +22,15 @@ Please contact **OTNDC@DAL.CA** if you are interested in connecting with your re
 
 ##  Intended Audience
 
-This set of workshop material is directed at OTN-reporting researchers who want more information about how to report to OTN, and what happens behind the scenes in the OTN data system.
+This set of workshop material is directed at OTN Technical staff from the Field department who want more information about how to report to OTN, and what happens behind the scenes in the OTN data system.
 
 In this walkthrough we will be looking at:
-- How to report to OTN, what to report to OTN, how to access OTN data products
-- The OTN Network of partner Nodes
-- Database systems, structure and outputs
-- All about OTN Data Pushes
-- Other ways OTN supports the telemetry community
+- The extensive features available in the OTN Data Portal (Plone)
+- How to do common tasks in the SnipeIt Inventory system
+- Tips and tricks for completing metadata
+- How to document ROV and SSS missions, and archive data
+- Introduction to the OTN Field Ops GitLab project
+
+The walkthough will have many opportunities for discussion and feedback as we strive to improve these processes moving forward.
 
 {% include links.md %}
