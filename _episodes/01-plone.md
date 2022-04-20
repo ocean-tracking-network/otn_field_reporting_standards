@@ -30,10 +30,11 @@ This page contains the following sections:
 3. A list of the species studied by the project
 4. Contact information for Principal Investigators and Points of Contact
 5. Related URLs including:
-	* for logged in users - a link to the project's private repository
-	* for logged in users - a link to the `Detection Extracts` subfolder in the project's repository
+	* for logged in users (unless project is public) - a link to the project's private repository
+	* for logged in users (unless project is public) - a link to the `Detection Extracts` subfolder in the project's repository
 	* a `stations` KML file containing the GPS locations of all stations
 	* a `deployments` CSV containing a summary of each deployment
+	* if a project is public - a KML and CSV file containing information regarding the projects tagged animal records
 6. A summary of all the projects who have been detected by the project and where those project's tags have been detected
 
 ## Project repository
@@ -115,5 +116,6 @@ OTNDC has created a [Statistics](https://members.oceantrack.org/statistics) page
 - an interactive chart showing the number of receivers "active" each month, coloured by year
 - an interactive map showing the "currently active" receivers we know are still in the water at the time of publishing. Only Node's whose data policies allow the publishing of station locations are included (not FACT, ACT or MigraMar)
 
+Additional summaries or plots can be created by OTNDC staff upon request, and if the need arises, even incorporated into this webpage. Reach out if you have ideas!
 
 {% include links.md %}
