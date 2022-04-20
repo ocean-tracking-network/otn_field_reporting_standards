@@ -11,7 +11,7 @@ keypoints:
     - "OTN matches data and metadata across numerous geographic areas"
     - "Detection extracts are returned to researchers after data pushes"
 ---
-## Reporting Data to an OTN Node
+# Reporting Data to an OTN Node
 
 As researchers who are part of the OTN Network, you are encouraged to register your projects and report your data and metadata in a timely manner to your Data Manager. This will benefit all researchers in the region through the database's detection-matching system.
 
@@ -19,7 +19,7 @@ As researchers who are part of the OTN Network, you are encouraged to register y
 
 You are encouraged to read the [OTN FAQs Page](https://members.oceantrack.org/faq) for more information.
 
-### How to register with the OTN Database
+## How to register with the OTN Database
 
 In order to register a project with OTN, we require 3 metadata types:
 1. project metadata
@@ -28,23 +28,69 @@ In order to register a project with OTN, we require 3 metadata types:
 
 See the templates [here](https://members.oceantrack.org/data/data-collection).  OTNDC@DAL.CA is the best contact for assistance
 
-### What is the benefit of registering with the OTN Database?
+## What is the benefit of registering with the OTN Database?
 
 OTN and affiliated networks provide automated cross-referencing of your detection data with other tags in the system to help resolve "mystery detections" and provide detection data to taggers in other regions. OTN's Data Manager will also extensively quality control your submitted metadata for errors to ensure the most accurate records possible are stored in the database. OTN's database and Data Portal website are excellent places to archive your datasets for future use and sharing with collaborators. We offer pathways to publish your datasets with [OBIS](https://obis.org/), and via open data portals like ERDDAP, GeoServer etc. The data-product format returned by OTN is directly ingestible by analysis packages such as [glatos](https://github.com/ocean-tracking-network/glatos) and [resonATe](https://gitlab.oceantrack.org/otndc/resonate) for ease of analysis. OTN offers support for the use of these packages and tools.
 
-### What is the Data Portal?
+# Metadata Tips and Tricks
 
-OTN's `Data Portal` [website](https://members.oceantrack.org) is similar to DropBox or another file repository service. While there are helpful links and tools to explore, this site is mainly used to hold private repository folders for each project. In your project folder, you can add files which can be viewed ONLY by anyone who has been given access. These folders are also where the Data Manager will upload your Detection Extracts when they are ready.
+Here are some field-specific guidelines for completing metadata. The OTN field team has their own metadata format, based upon our Shortform Template, but containing OTN-specific columns, which is used for many projects. This deployment metadata sheet is available [here](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/Metadata%20Templates).
 
-OTN's `database` is built on PostgreSQL/PostGIS and is hosted on OTN hardware at Dalhousie University. Many partner Nodes are hosted at other locations. Users do not have direct write access to the database: the files posted in your Data Portal folder will be downloaded, quality controlled and loaded into the database by a Data Manager.
+Please refer to the `Data Dictionary` tab of the metadata for other instructions.
+
+## Upon Deployment
+
+When a mission contains deployments, there is some information needed:
+- exact waypoint lat/long (will often differ from the intended location)
+- the deployment date and time (in UTC)
+- the serial numbers of all instruments
+- information about the depth of the water and the riser used (all in m). **hint**: the instrument_depth should always be equal to bottom_depth minus riser_length.
+
+OTN staff have had great success with recording deployments properly.
+
+## Upon Recovery
+
+When a mission contains equipment recoveries, there is some information needed:
+- the recovery date and time (in UTC)
+- an indicator about the success of the recovery and notes to accompany this
+
+OTN staff have had great success with recording recoveries properly.
+
+## Download-only Missions
+
+When a mission contains stations which are remotely downloaded, metadata still needs completion:
+- the download date and time (in UTC)
+- and indicator about the success of the download, and notes to accompany this
+
+For deployments where multiple remote downloads occur (5-year VR4 moorings), you simply replace the previously listed download date in the metadata with the new date and accompanying comments.
+
+## Lost or Found Gear
+
+Generally, equipment is marked with a `y` in the recovery indicator column if recovery is successfully completed during a mission, or `n` if recovery has not yet been attempted for the specific mooring. There are many other cases which need special consideration in the metadata:
+
+Marking equipment as lost:
+- if there is no communication from a mooring, please mark it as `lost` in the `recovered (y/n/l`) column and include comments
+- if this lost mooring is ever found again on station, it can be changed to `found` or another indicator
+- if a mooring is "stuck" (release has no communication but receiver is still communicating), please mark it as `failed` in the `recovered (y/n/l`) column and include comments
+
+Found equipment:
+- if a fishing vessel drags up or catching the mooring, please mark it as `caught` in the `recovered (y/n/l`) column and include comments 
+- if a receiver is found on a shoreline, please mark it as `found` and include comments 
+
+Other accepted terms include `moved`, which is used when a mooring is recovered successfully, but was a substantial distance from its deployment location suggesting fishing activity.
+
+## OTN specific-columns
+
+Mission IDs for both the recovery and deployment missions are helpful to ensure we're able to link the mission report (notes) to the deployment history. These fields aren't mandatory but can be useful!
+
+Consecutive deployment number is helpful for tracking stations which have been rolled-over and those which haven't yet, but is not a mandatory field.
+
+# Raw Field Notes
+
+Often, typos are introduced into metadata sheets while being transcribed. This means that the true information is only found in the raw field notes, contained in muddy write-in-the-rain notebooks. These are easily lost and not easily searchable.
+
+For these reasons, it is encouraged to take a photo of the field notes at the end of the mission and uploading it to the project's Data Portal repository folder for safe-keeping. These can be used to untangle metadata mysteries that might occur, and will preserve this information when projects are handed between technicians and staff changes occur.
 
 
-## Receiving Detection Matches
-
-As researchers who have already submitted data and metadata to the OTN Database, you will receive detection-matches for the tags detected on your array and the tags you have release. These are in standard formats call "Detection Extracts" and are provided to you several times a year during a "data push".
-
-### What are Detection Extract data products?
-
-OTN and all of its partner Nodes create Detection Extracts on a semi-regular basis (approximately every 4 months) following a cross-Node coordinated detection matching event known as a Data Push. These Detection Extract files contain only the detections for the year corresponding to the suffix on the file name. See the detailed [detection extract documentation](https://members.oceantrack.org/data/otn-detection-extract-documentation-matched-to-animals) for more information.
 
 {% include links.md %}
