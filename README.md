@@ -1,5 +1,7 @@
 # OTN Field Reporting Standards 2022-04
-Workshop materials created by OTN for the 2022-04 workshop for OTN field team.
+
+
+A library of lessons containing information for the OTN Field Team re: standardized protocols
 
 - 00-background
 - 01-plone
