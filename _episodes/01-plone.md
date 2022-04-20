@@ -30,10 +30,10 @@ This page contains the following sections:
 3. A list of the species studied by the project
 4. Contact information for Principal Investigators and Points of Contact
 5. Related URLs including:
-		* **for logged in users** - a link to the project's private repository
-		* **for logged in users** - a link to the `Detection Extracts` subfolder in the project's repository
-		* a `stations` KML file containing the GPS locations of all stations
-		* a `deployments` CSV containing a summary of each deployment
+	* for logged in users - a link to the project's private repository
+	* for logged in users - a link to the `Detection Extracts` subfolder in the project's repository
+	* a `stations` KML file containing the GPS locations of all stations
+	* a `deployments` CSV containing a summary of each deployment
 6. A summary of all the projects who have been detected by the project and where those project's tags have been detected
 
 ## Project repository
