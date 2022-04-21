@@ -14,11 +14,7 @@ keypoints:
 
 Due to our obligation to funding agencies and partners, its essential that we document all ROV missions thoroughly. This should include the archiving of all collected data, video footage and other samples along with complete metadata to give temporal and geographical context to this archived data. 
 
-<<<<<<< Updated upstream
 While this has been done periodically in the past, its come time to re-evaluate the workflow and ensure all industry reporting standards are being met.
-=======
-Some reporting has been done in the past, however a review of the workflow, to ensure all industry reporting standards are being met, is necessary at this time.
->>>>>>> Stashed changes
 
 ### Current OTN ROV Reporting Requirements
 
