@@ -3,48 +3,59 @@ title: ROV and SSS Reporting
 teaching: 30
 exercises: 0
 questions:
-    - "How do I report to the OTN Database?"
-    - "Why should I report my data?"
-    - "How do I receive my detection matches?"
+    - "Why is it important to keep ROV/SSS records?"
+    - "How are ROV/SSS missions reported?"
+    - "How can we improve this workflow?"
 keypoints:
-    - "Metadata templates are used to report records"
-    - "OTN matches data and metadata across numerous geographic areas"
-    - "Detection extracts are returned to researchers after data pushes"
+    - "Data files, along with metadata about the time and location, are needed for each mission"
+    - "We have a current workflow for reporting, but are open to adapt"
 ---
-## Reporting Data to an OTN Node
+## Record Keeping for Robotics Missions
 
-As researchers who are part of the OTN Network, you are encouraged to register your projects and report your data and metadata in a timely manner to your Data Manager. This will benefit all researchers in the region through the database's detection-matching system.
+Due to our obligation to funding agencies and partners, its essential that we document all ROV missions thoroughly. This should include the archiving of all collected data, video footage and other samples along with complete metadata to give temporal and geographical context to this archived data. 
 
-**This presentation** [ONC and OTN: a Collaboration](../files/ONC_workshop_2022_04.pptx) will cover some of the following topics.
+While this has been done haphazardly in the past, its come time to re-evaluate the workflow and ensure all industry reporting standards are being met.
 
-You are encouraged to read the [OTN FAQs Page](https://members.oceantrack.org/faq) for more information.
+### Current OTN ROV Reporting Requirements
 
-### How to register with the OTN Database
+The instructions for ROV/SSS Reporting have been available on the [Field Ops GitLab](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/ROV%20and%20SSS%20Reporting).
 
-In order to register a project with OTN, we require 3 metadata types:
-1. project metadata
-2. instrument deployment metadata
-3. tagging metadata
+1. When a request for an ROV project is received and scoped, a project needs to be entered into the [Loaner Operations project in Podio](https://podio.com/ocean-tracking-network-new/operations/apps/robotics-projects). This information will be used by the Project Management team to track the partnerships formed and any legal agreements required.
+2. Once an ROV mission has been completed, the following information is added to [this OneDrive folder](https://dalu-my.sharepoint.com/:f:/g/personal/otndc_dal_ca/EnneuV4kB1hIlIIoeL1TbE0BAZH9OsCR--ClfC4u3SMffA?e=70KJFN)
+	- Data files from the instruments
+	- Video files from the instruments
+	- Any video clips that have been deemed relevant/interesting, or notes describing any signficant video sections (for the Communications team).
+	- GPS trackfile of the flightpath (if available), or start/end coordinates for the mission
+3. Once an ROV mission has been completed, the following information is emailed to OTNDC@Dal.ca (or posted in the relevant Data Portal folder)
+	- [Mission report](https://members.oceantrack.org/data/data-collection/otn-mission-report.xls)
+	- Deployment metadata **TODO: add template**
 
-See the templates [here](https://members.oceantrack.org/data/data-collection).  OTNDC@DAL.CA is the best contact for assistance
+Projects completed for other partners will get their own project created in the OTN database, while all other OTN-lead projects will be added to an OTN-Robotics catch-call project. 
 
-### What is the benefit of registering with the OTN Database?
+### Current OTN SSS Reporting Requirements
 
-OTN and affiliated networks provide automated cross-referencing of your detection data with other tags in the system to help resolve "mystery detections" and provide detection data to taggers in other regions. OTN's Data Manager will also extensively quality control your submitted metadata for errors to ensure the most accurate records possible are stored in the database. OTN's database and Data Portal website are excellent places to archive your datasets for future use and sharing with collaborators. We offer pathways to publish your datasets with [OBIS](https://obis.org/), and via open data portals like ERDDAP, GeoServer etc. The data-product format returned by OTN is directly ingestible by analysis packages such as [glatos](https://github.com/ocean-tracking-network/glatos) and [resonATe](https://gitlab.oceantrack.org/otndc/resonate) for ease of analysis. OTN offers support for the use of these packages and tools.
+The instructions for ROV/SSS Reporting have been available on the [Field Ops GitLab](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/ROV%20and%20SSS%20Reporting).
 
-### What is the Data Portal?
+1. When a request for a sidescan project is received and scoped, a project needs to be entered into the [Loaner Operations project in Podio](https://podio.com/ocean-tracking-network-new/operations/apps/robotics-projects). This information will be used by the Project Management team to track the partnerships formed and any legal agreements required.
+2. Once a sidescan mission has been completed, the following information is added to [this OneDrive folder](https://dalu-my.sharepoint.com/:f:/g/personal/otndc_dal_ca/EnneuV4kB1hIlIIoeL1TbE0BAZH9OsCR--ClfC4u3SMffA?e=70KJFN)
+	- Raw data files from the instrument
+	- GPS trackfile of the flightpath
+	- any processed SSS files/images 
+3. Once a SSS mission has been completed, the following information is emailed to OTNDC@Dal.ca (or posted in the relevant Data Portal folder)
+	- [Mission report](https://members.oceantrack.org/data/data-collection/otn-mission-report.xls)
+	- Deployment metadata **TODO: add template**
 
-OTN's `Data Portal` [website](https://members.oceantrack.org) is similar to DropBox or another file repository service. While there are helpful links and tools to explore, this site is mainly used to hold private repository folders for each project. In your project folder, you can add files which can be viewed ONLY by anyone who has been given access. These folders are also where the Data Manager will upload your Detection Extracts when they are ready.
+Projects completed for other partners will get their own project created in the OTN database, while all other OTN-lead projects will be added to an OTN-Robotics catch-call project.
 
-OTN's `database` is built on PostgreSQL/PostGIS and is hosted on OTN hardware at Dalhousie University. Many partner Nodes are hosted at other locations. Users do not have direct write access to the database: the files posted in your Data Portal folder will be downloaded, quality controlled and loaded into the database by a Data Manager.
+## Industry Standards
 
+OTNDC's questions for the field team include:
 
-## Receiving Detection Matches
+- what are the standard data files that are collected by ROV or SSS missions?
+- what extra information is generally important for data analysis of these files? Instrument programming, weather conditions, oceanographic information?
+- what do most professionals use for geographic context to missions? GPS trackfile, start/end coordinates?
+- are there standard reporting templates we can adopt?
 
-As researchers who have already submitted data and metadata to the OTN Database, you will receive detection-matches for the tags detected on your array and the tags you have release. These are in standard formats call "Detection Extracts" and are provided to you several times a year during a "data push".
-
-### What are Detection Extract data products?
-
-OTN and all of its partner Nodes create Detection Extracts on a semi-regular basis (approximately every 4 months) following a cross-Node coordinated detection matching event known as a Data Push. These Detection Extract files contain only the detections for the year corresponding to the suffix on the file name. See the detailed [detection extract documentation](https://members.oceantrack.org/data/otn-detection-extract-documentation-matched-to-animals) for more information.
+We are excited to expand our robotics fleet and are keen and willing to change our expectations based on the experience of professionals.
 
 {% include links.md %}
