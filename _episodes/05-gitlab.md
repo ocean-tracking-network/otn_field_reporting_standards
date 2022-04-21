@@ -3,48 +3,88 @@ title: Introduction to GitLab
 teaching: 30
 exercises: 0
 questions:
-    - "How do I report to the OTN Database?"
-    - "Why should I report my data?"
-    - "How do I receive my detection matches?"
+    - "What is the purpose of GitLab?"
+    - "How can the Field Team use GitLab?"
 keypoints:
-    - "Metadata templates are used to report records"
-    - "OTN matches data and metadata across numerous geographic areas"
-    - "Detection extracts are returned to researchers after data pushes"
+    - "GitLab helps organize and archive tasks"
+    - "There are several ways GitLab can be used by the Field Team"
 ---
-## Reporting Data to an OTN Node
 
-As researchers who are part of the OTN Network, you are encouraged to register your projects and report your data and metadata in a timely manner to your Data Manager. This will benefit all researchers in the region through the database's detection-matching system.
+## OTN's GitLab
 
-**This presentation** [ONC and OTN: a Collaboration](../files/ONC_workshop_2022_04.pptx) will cover some of the following topics.
+At OTN, GitLab is used for internal record keeping and collaborative code development. The main purpose (for non-computer scientists at OTN) is the ability to use GitLab Issues containing templates of task-lists to ensure the DAQ team NEVER forgets a step in data loading, and that no file is ever lost/forgotten in an inbox. We track all communications with researchers and archive all important information for future use.
 
-You are encouraged to read the [OTN FAQs Page](https://members.oceantrack.org/faq) for more information.
+GitLab allows us to be accountable, thorough and comprehensive in our data-loading process. This is essential for smooth communication and acts as a searchable archive of OTN's institutional memory.
 
-### How to register with the OTN Database
+## Field Ops Gitlab
 
-In order to register a project with OTN, we require 3 metadata types:
-1. project metadata
-2. instrument deployment metadata
-3. tagging metadata
+As the field team has grown, job descriptions have expanded, and remote work has become more common it is now important to start using some of the lessons learned by the data team to improve field ops communications. For this reason, there is now a **Field Team GitLab** project - [https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops).
 
-See the templates [here](https://members.oceantrack.org/data/data-collection).  OTNDC@DAL.CA is the best contact for assistance
+Each OTN field team member should have a GitLab account created - please fill out this [signup form for an account on GitLab](https://gitlab.oceantrack.org/users/sign_up) if you don't have an account.
 
-### What is the benefit of registering with the OTN Database?
+This Field_Ops Gitlab has been created as a place to track complex / important / outstanding issues so that they can be contributed to collaboratively and archived for future reference. This will be used in addition to Slack to make sure all Field Team members are communicating and information does not slip between the cracks of our busy schedules.
 
-OTN and affiliated networks provide automated cross-referencing of your detection data with other tags in the system to help resolve "mystery detections" and provide detection data to taggers in other regions. OTN's Data Manager will also extensively quality control your submitted metadata for errors to ensure the most accurate records possible are stored in the database. OTN's database and Data Portal website are excellent places to archive your datasets for future use and sharing with collaborators. We offer pathways to publish your datasets with [OBIS](https://obis.org/), and via open data portals like ERDDAP, GeoServer etc. The data-product format returned by OTN is directly ingestible by analysis packages such as [glatos](https://github.com/ocean-tracking-network/glatos) and [resonATe](https://gitlab.oceantrack.org/otndc/resonate) for ease of analysis. OTN offers support for the use of these packages and tools.
+Gitlab Issues should be created to track:
 
-### What is the Data Portal?
+- lost equipment
+- equipment returns
+- found equipment
+- RMAs, including the outcome as reported by the manufacturer, and all data files (these usually are just emailed)
+- deployment or metadata issues / questions from PIs that need digging into
+- outstanding purchase orders
+- anything that is too complicated to track via email and/or involves too many people
 
-OTN's `Data Portal` [website](https://members.oceantrack.org) is similar to DropBox or another file repository service. While there are helpful links and tools to explore, this site is mainly used to hold private repository folders for each project. In your project folder, you can add files which can be viewed ONLY by anyone who has been given access. These folders are also where the Data Manager will upload your Detection Extracts when they are ready.
+Current members of this Gitlab Project include: all field staff, members of the Project Management Office, some members of the Data Team. Please tag them in an issue (using the @ symbol) to prompt them for input.
 
-OTN's `database` is built on PostgreSQL/PostGIS and is hosted on OTN hardware at Dalhousie University. Many partner Nodes are hosted at other locations. Users do not have direct write access to the database: the files posted in your Data Portal folder will be downloaded, quality controlled and loaded into the database by a Data Manager.
+Field team members leave (for vacation, or permanently) and so a shared record of important events will be essential to ensure knowledge-transfer. Having the information in your email's is great, but it may become lost and is not easily shared/searched by colleagues.
 
+## How to Use GitLab
 
-## Receiving Detection Matches
+Menu on the left-hand sidebar:
+- Project information allows changes to Members and permissions
+- Repository contains Issue templates
+- Issues contains all ongoing (and completed) Issues!
+- Deployments is not used
+- Wiki contains helpful documentation and links for you!
+- Snippets can contain standard text blocks (email templates), code blocks (quick DB queries), or other things
+- Settings allows changes to the functionality of the GitLab Project
 
-As researchers who have already submitted data and metadata to the OTN Database, you will receive detection-matches for the tags detected on your array and the tags you have release. These are in standard formats call "Detection Extracts" and are provided to you several times a year during a "data push".
+Top menu banner:
+- Shows your main menu, with all the GitLab projects you have been added to
+- Has a search function, which can be used to find Issues using keywords
+- Has your personal Issue Dashboard with all Issues assigned to you
+- Has personal and account Settings
 
-### What are Detection Extract data products?
+**You will use the `Issues` and `Wiki` left-hand sidebar options, and the personal `Issue Dashboard` in the top menu banner (right side) most often.**
 
-OTN and all of its partner Nodes create Detection Extracts on a semi-regular basis (approximately every 4 months) following a cross-Node coordinated detection matching event known as a Data Push. These Detection Extract files contain only the detections for the year corresponding to the suffix on the file name. See the detailed [detection extract documentation](https://members.oceantrack.org/data/otn-detection-extract-documentation-matched-to-animals) for more information.
+## Issue Templates
+
+For tasks that are repeated (Canadian shipments, international shipments, returning equipment, washups, Fedex insurance claims etc) the same set of tasks are often required each time. GitLab Issues have an option to populate with a standardized `template checklist`.
+
+Currently, as a test, the Field Ops Gitlab only has one template, for `found_gear`. However, if this is deemed successful we can likely expand to include shipping checklists, packing lists, etc.
+
+### Using Issue Templates
+
+When you navigate to `Issues` on the left-hand sidebar menu, there will be an option to create a `New Issue`. By choosing the New Issue button in the top-right of your screen, you will be taken to a new, blank, issue form. To fill out the fields you will need to do the following:
+- Title (something informative, ex: HFX washup 2022-04)
+- Type: No need to edit this field, should be type `Issue`.
+- Description: If if you wish to use a pre-made `Template`, you will choose it here, using the drop down menu. Ensure you choose the relevant checklist for the type of issue you are creating (ex: found_gear). This will populate the large description field! 
+- Milestone: These can be setup to be deadlines, but can be left blank
+- Labels: This is for your reference - choose a label that will help you remember the reason this issue exists. Some common examples include `FOUND GEAR`, `Data/Metadata Problem`, `Legal`, `RMA` etc. You can create new labels at any time to help categorize the Issues!
+
+Now, with all information completed, you can select Create Issue.
+
+## GitLab Wiki
+
+The Field Ops GitLab has a [wiki page](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/home) where important files, templates, and procures are outlined. Currently, there are several resources available to assist with day-to-day activities with the Field Team
+
+- Metadata Templates
+- Shipping Procedures
+- Lost & Found Gear Report Form
+- ROV/SSS Reporting
+- link to the OTN Wiki SOPs
+
+Theoretically, this curriculum should cover the same content as the Wiki, but the Wiki is a good reference as well and can be edited to contain any information deemed important.
+
 
 {% include links.md %}
