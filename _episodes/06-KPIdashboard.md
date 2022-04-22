@@ -5,7 +5,7 @@ exercises: 0
 questions:
     - "What is the OTN Ops Dashboard?"
 keypoints:
-    - "There are several features on the Ops Dashboard that are useful to Field"
+    - "There are several features on the Ops Dashboard that are useful to the Field team"
 ---
 ## KPI Dashboard
 
