@@ -8,7 +8,7 @@ questions:
 keypoints:
     - "OTN is a global organization."
     - "OTN supports research in ways both technical and data related"
-    - "More informatin is available on the Data Portal"
+    - "More information is available on the Data Portal"
 
 ---
 # Intro to OTN
@@ -17,11 +17,11 @@ The Ocean Tracking Network (OTN) supports global telemetry research by providing
 
 ## OTN Field Technicians
 
-The OTN field team are a group of experts who's combined years of experience can be leveraged, with study design advice and field assistance, by OTN reporting researchers. Acoustic telemetry study design, including array and mooring design, as well as animal tagging and field planning. The OTN field team deploy and maintain scientific infrastructure around the coasts of Canada, as well as in various regions around the world.
+The OTN field team are a group of experts whose combined years of experience can be leveraged, with study design advice and field assistance, by OTN reporting researchers. The OTN field team deploy and maintain scientific infrastructure around the coasts of Canada, as well as in various regions around the world.
 
-OTN has recently added to its scientific fleet an ROV and a side scan sonar unit.  These tools allow for site evaluations and search and recovery of lost equipment.
+OTN has recently added to its scientific fleet an ROV and a side scan sonar unit.  These tools allow for site evaluations as well as search and recovery of lost equipment.
 
-All of these field endeavours generate an enormous amount of data and metadata records irreplaceable and of great value to researchers.
+All of these field endeavours generate an enormous amount of data and metadata records - irreplaceable and of great value to researchers.
 
 ## OTN Data System
 
@@ -29,7 +29,7 @@ OTN and affiliated networks provide automated cross-referencing of your detectio
 
 ## Better Together
 
-The OTN field and data teams need to work closely together through much of their workflows. Researchers requests information about OTN managed infrastructure as soon as the field work is complete. Records need to be passed as soon as we are able, with as high a degree of accuracy as is possible.  Current workflows may need adjustment to better serve the needs of the research community.
+The OTN field and data teams need to work closely together through much of their workflows. Researchers often request information about OTN-managed infrastructure as soon as the field work is complete. Records need to be passed from the field team to OTNDC as soon as is feasible and with as high a degree of accuracy as possible. Current workflows may need adjustment to better serve the needs of the research community.
 
 ## Intended Audience
 
