@@ -5,22 +5,33 @@ exercises: 0
 questions:
     - "What is the Ocean Tracking Network?"
     - "How does your local telemetry network interact with OTN?"
-    - "What methods of data analysis will be covered?"
 keypoints:
     - "OTN is a global organization."
-    - "More informatin is available on the Data Portal"
+    - "OTN supports research in ways both technical and data related"
+    - "More information is available on the Data Portal"
 
 ---
-## Intro to OTN
+# Intro to OTN
 
-The Ocean Tracking Network (OTN) supports global telemetry research by providing training, equipment, and data infrastructure to our large network of partners. 
+The Ocean Tracking Network (OTN) supports global telemetry research by providing training, equipment, and data infrastructure to our large network of partners.
+
+## OTN Field Technicians
+
+The OTN field team are a group of experts whose combined years of experience can be leveraged, with study design advice and field assistance, by OTN reporting researchers. The OTN field team deploy and maintain scientific infrastructure around the coasts of Canada, as well as in various regions around the world.
+
+OTN has recently added to its scientific fleet an ROV and a side scan sonar unit.  These tools allow for site evaluations as well as search and recovery of lost equipment.
+
+All of these field endeavours generate an enormous amount of data and metadata records - irreplaceable and of great value to researchers.
+
+## OTN Data System
 
 OTN and affiliated networks provide automated cross-referencing of your detection data with other tags in the system to help resolve "mystery detections" and provide detection data to taggers in other regions. OTN's Data Managers will also extensively quality-control your submitted metadata for errors to ensure the most accurate records possible are stored in the database. OTN's database and Data Portal website are excellent places to archive your datasets for future use and sharing with collaborators. We offer pathways to publish your datasets with OBIS, and via open data portals like ERDDAP, GeoServer etc. The data-product format returned by OTN is directly ingestible by analysis packages such as glatos and resonATe for ease of analysis. OTN offers support for the use of these packages and tools.
 
-Learn more about OTN and our partners here [https://members.oceantrack.org/](https://members.oceantrack.org/).
-Please contact **OTNDC@DAL.CA** if you are interested in connecting with your regional network and learning about their affiliation with OTN.
+## Better Together
 
-##  Intended Audience
+The OTN field and data teams need to work closely together through much of their workflows. Researchers often request information about OTN-managed infrastructure as soon as the field work is complete. Records need to be passed from the field team to OTNDC as soon as is feasible and with as high a degree of accuracy as possible. Current workflows may need adjustment to better serve the needs of the research community.
+
+## Intended Audience
 
 This set of workshop material is directed at OTN Technical staff from the Field department who want more information about how to report to OTN, and what happens behind the scenes in the OTN data system.
 
