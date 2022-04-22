@@ -22,6 +22,8 @@ The OTN data system is an aggregator of telemetry data made up of interconnected
 
 Affiliated acoustic telemetry partner Networks may become an OTN Node by deploying their own database that follows the same structure as all the others. This structure allows Nodes to use OTN's data loading processes, produce OTN data products, and match detections across other Nodes.
 
+This lesson will give a short overview on the OTN Database and the way data is processed through it to create meaningful detection matches, summaries, and website updates.
+
 ## Basic Structure
 
 The basic structural decision at the centre of an OTN-style Database is that each of a Node's projects will be subdivided into their own database `schemas`. These project schemas contain the relevant tables and data to that project. The tables included in each schema are created and updated based on which types of data each project is reporting.

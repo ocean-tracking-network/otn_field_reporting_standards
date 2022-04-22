@@ -19,6 +19,7 @@ OTN serves the telemetry and broader scientific community through its primary pu
 ## OBIS publishing
 
 OTN is an OBIS thematic node, tasked with curating and coordinating the publishing of aquatic animal tracking data. OTN adheres closely to Darwin Core standards throughout the data reporting process.
+
 OTN is involved with the training of OBIS members and development of tools and processes, through training workshops and code sprints.
 
 ## DOI minting
