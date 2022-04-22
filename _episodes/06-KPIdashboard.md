@@ -13,7 +13,7 @@ OTNDC has developed an interactive web-based dashboard for Project Management st
 
 This curriculum is public, so we cannot add the login credentials here, but please email OTNDC@Dal.ca for information if you are interested.
 
-**Note**: this is for internal use only! The output from any of these KPI tools should not be shared externally without first discussing with Project Management of OTNDC.
+**Note**: this is for internal use only! The output from any of these KPI tools should not be shared externally without first discussing with Project Management or OTNDC.
 
 ### View KPI
 
