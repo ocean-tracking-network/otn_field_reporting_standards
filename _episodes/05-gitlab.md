@@ -38,6 +38,8 @@ Current members of this Gitlab Project include: all field staff, members of the 
 
 Field team members leave (for vacation, or permanently) and so a shared record of important events will be essential to ensure knowledge-transfer. Having the information in your email's is great, but it may become lost and is not easily shared/searched by colleagues.
 
+![FieldOps GitLab Home Page](../fig/fieldops_gitlab_home.PNG)
+
 ## How to Use GitLab
 
 Menu on the left-hand sidebar:
@@ -73,6 +75,8 @@ When you navigate to `Issues` on the left-hand sidebar menu, there will be an op
 - Labels: This is for your reference - choose a label that will help you remember the reason this issue exists. Some common examples include `FOUND GEAR`, `Data/Metadata Problem`, `Legal`, `RMA` etc. You can create new labels at any time to help categorize the Issues!
 
 Now, with all information completed, you can select Create Issue.
+
+![GitLab Issue Creation - with templates](../fig/new_gitlab_issue.PNG)
 
 ## GitLab Wiki
 

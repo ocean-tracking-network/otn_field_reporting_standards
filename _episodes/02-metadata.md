@@ -38,7 +38,7 @@ OTN and affiliated networks provide automated cross-referencing of your detectio
 
 ## Metadata Tips and Tricks
 
-Here are some field-specific guidelines for completing metadata. The OTN field team has their own metadata format, based on the Shortform Template, but containing OTN-specific columns, which is used for many projects. This deployment metadata sheet is available [here](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/Metadata%20Templates).
+Here are some field-specific guidelines for completing metadata. The OTN field team has their own metadata format, based on the Shortform Template, but containing OTN-specific columns, which is used for many projects. The OTN-Field deployment metadata sheet is available [here](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/Metadata%20Templates).
 
 If you are unsure of what information to put in a column, refer to the `Data Dictionary` tab of the metadata for other instructions.
 
@@ -100,5 +100,6 @@ Often, typos are introduced into metadata sheets while being transcribed. This m
 
 For these reasons, it is encouraged to take a photo of the field notes at the end of the mission and uploading it to the project's Data Portal repository folder for safe-keeping. These can be used to untangle metadata mysteries that might occur, and will preserve this information when projects are handed between technicians and staff changes occur.
 
+![Example Raw Metadata Image](../fig/raw_metadata.jpeg)
 
 {% include links.md %}
