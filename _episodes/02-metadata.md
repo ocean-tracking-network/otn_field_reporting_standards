@@ -18,7 +18,7 @@ keypoints:
 
 As researchers who are part of the OTN Network, you are encouraged to register your projects and report your data and metadata in a timely manner to your Data Manager. This will benefit all researchers in the region through the database's detection-matching system.
 
-**This presentation** [ONC and OTN: a Collaboration](../files/ONC_workshop_2022_04.pptx) will cover some of the following topics.
+**This presentation** [Reporting to OTN](../files/field_workshop_2022_04.pptx) will cover some of the following topics.
 
 You are encouraged to read the [OTN FAQs Page](https://members.oceantrack.org/faq) for more information.
 
