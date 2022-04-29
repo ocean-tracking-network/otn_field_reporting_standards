@@ -15,6 +15,8 @@ This curriculum is public, so we cannot add the login credentials here, but plea
 
 **Note**: this is for internal use only! The output from any of these KPI tools should not be shared externally without first discussing with Project Management or OTNDC.
 
+![Dashboard Banner](../fig/dashboard_banner.PNG)
+
 ### View KPI
 
 The default summary page is the `KPI Dashboard`. This has a drop-down menu for each fiscal year, and contains Key Performance Indicator statistics which are required for annual reporting to CFI. These are pulled from the [KPI Project on Podio](https://podio.com/ocean-tracking-network-new/kpi) as well as the annual report survey sent out to all partners.
@@ -42,9 +44,12 @@ The `Receiver Report Tool` has a direct link to the OTN Database, and can be use
 1. Search by receiver serial numbers (and/or year) to show all deployments of a certain receiver(s), across all projects
 1. Search by both collection code and receiver serial number
 
-You are able to export as either a CSV or XLSX.
+You are able to export as an XLSX, and soon as a CSV as well.
+
 
 **Note**: the year filter currently only shows receivers deploying **in** that year. This means that 5-year moorings (ex: HFX) will only appear in the year they were deployed, not all years they were active. This is something we are changing soon.
+
+![Receiver Report Tool](../fig/receiver_report_tool.PNG)
 
 ### Receiver Efficiency Index Tool
 
@@ -52,11 +57,15 @@ This `Receiver Efficiency Index Tool` was developed to determine which stations 
 
 This tool allows you to choose a collection code and date range, and either view or export as interactive map displaying the "hot spots" of detection activity (yellow colour) in your array. This is important for OTN to use for array reconfiguration evaluations.
 
+![Receiver Efficiency Index Tool](../fig/rei_tool.PNG)
+
 ### Bibliography Graph
 
 The `Bibliography Graph` is the newest tool added to the Ops Dashboard. It is an interactive network plot showing the publications by OTN researchers, with links between researchers who have co-authored papers. Researchers who publish more have larger dots in the graph. The researchers are coloured according to which Network they are a member of.
 
 There several interactive filter options including by year. There are likely to be more developments on this tool in future.
+
+![Bibliography Graph](../fig/biblio_tool.PNG)
 
 ## Future Tools
 
