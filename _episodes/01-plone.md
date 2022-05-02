@@ -15,6 +15,8 @@ OTN's `Data Portal` [website](https://members.oceantrack.org) is similar to Drop
 
 OTN's `database` is built on PostgreSQL/PostGIS and is hosted on OTN hardware at Dalhousie University. Many partner Nodes are hosted at other locations. Users do not have direct write access to the database: the files posted in a Data Portal folder will be downloaded, quality controlled and loaded into the database by a Data Manager.
 
+
+
 # Useful tools for Field Techs
 
 OTN's Data Portal website is used extensively by OTNHQ staff members for many purposes. A few of these are highlighted below!

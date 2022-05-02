@@ -16,7 +16,7 @@ keypoints:
 
 ## Reporting Data to an OTN Node
 
-As researchers who are part of the OTN Network, you are encouraged to register your projects and report your data and metadata in a timely manner to your Data Manager. This will benefit all researchers in the region through the database's detection-matching system.
+Researchers who are part of the OTN Network are encouraged to register their projects and report data and metadata in a timely manner to their Data Manager. This will benefit all researchers in the region through the database's detection-matching system.
 
 **This presentation** [Reporting to OTN](../files/field_workshop_2022_04.pptx) will cover some of the following topics.
 
@@ -34,11 +34,11 @@ See the templates [here](https://members.oceantrack.org/data/data-collection).  
 
 ### What is the benefit of registering with the OTN Database?
 
-OTN and affiliated networks provide automated cross-referencing of your detection data with other tags in the system to help resolve "mystery detections" and provide detection data to taggers in other regions. OTN's Data Manager will also extensively quality control your submitted metadata for errors to ensure the most accurate records possible are stored in the database. OTN's database and Data Portal website are excellent places to archive your datasets for future use and sharing with collaborators. We offer pathways to publish your datasets with [OBIS](https://obis.org/), and via open data portals like ERDDAP, GeoServer etc. The data-product format returned by OTN is directly ingestible by analysis packages such as [glatos](https://github.com/ocean-tracking-network/glatos) and [resonATe](https://gitlab.oceantrack.org/otndc/resonate) for ease of analysis. OTN offers support for the use of these packages and tools.
+OTN and affiliated networks provide automated cross-referencing of detection data with other tags in the system to help resolve "mystery detections" and provide detection data to taggers in other regions. OTN's Data Manager will also extensively quality control submitted metadata for errors to ensure the most accurate records possible are stored in the database. OTN's database and Data Portal website are excellent places to archive datasets for future use and share with collaborators. We offer pathways to publish datasets with [OBIS](https://obis.org/), and via open data portals like ERDDAP, GeoServer etc. The data-product format returned by OTN is directly ingestible by analysis packages such as [glatos](https://github.com/ocean-tracking-network/glatos) and [resonATe](https://gitlab.oceantrack.org/otndc/resonate) for ease of analysis. OTN offers support for the use of these packages and tools.
 
 ## Metadata Tips and Tricks
 
-Here are some field-specific guidelines for completing metadata. The OTN field team has their own metadata format, based on the Shortform Template, but containing OTN-specific columns, which is used for many projects. The OTN-Field deployment metadata sheet is available [here](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/Metadata%20Templates).
+Here are some field-specific guidelines for completing metadata. The OTN Field team has their own metadata format, based on the Shortform Template, but containing OTN-specific columns, which is used for many projects. The OTN-Field deployment metadata sheet is available [here](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/Metadata%20Templates).
 
 If you are unsure of what information to put in a column, refer to the `Data Dictionary` tab of the metadata for other instructions.
 
@@ -46,10 +46,10 @@ If you are unsure of what information to put in a column, refer to the `Data Dic
 
 When a mission contains deployments, there is some information needed:
 
-- exact waypoint lat/long of deployment (will often differ from the intended location, take from ship's gps etc)
+- exact waypoint lat/long of deployment (will often differ from the intended location, and is taken from ship's gps or similar)
 - the deployment date and time (in UTC)
 - the serial numbers of all instruments
-- information about the depth of the water and the riser used (all in meters). **hint**: the instrument_depth should always be equal to bottom_depth minus riser_length.
+- information about the depth of the water and the riser used (all in meters). **Hint**: the instrument_depth should always be equal to bottom_depth minus riser_length.
 
 OTN staff have had great success with recording deployments properly.
 
@@ -86,11 +86,11 @@ Found equipment:
 - if a fishing vessel drags up or reports catching the mooring, please mark it as `caught` in the `recovered (y/n/l)` column and include comments 
 - if a receiver is found on a shoreline, please mark it as `found` and include comments
 
-Other accepted terms include `moved`, which is used when a mooring is recovered successfully, but was a substantial distance from its deployment location suggesting fishing activity.
+Other accepted terms include `moved`, which is used when a mooring is recovered successfully, but was a substantial distance from its deployment location suggesting fishing interactions or movement during a storm.
 
 ### OTN specific-columns
 
-Mission IDs for both the recovery and deployment missions are helpful to ensure we're able to link the mission report (notes) to the deployment history. These fields aren't mandatory but can be useful!
+Mission IDs for both the recovery and deployment missions are helpful to ensure we're able to link the mission report (notes) to the deployment history. These fields aren't mandatory but can be very useful internally!
 
 Consecutive deployment number is helpful for tracking stations which have been rolled-over and those which haven't yet, but is not a mandatory field.
 
@@ -98,7 +98,7 @@ Consecutive deployment number is helpful for tracking stations which have been r
 
 Often, typos are introduced into metadata sheets while being transcribed. This means that the true information is only found in the raw field notes, contained in muddy write-in-the-rain notebooks. These are easily lost and not easily searchable.
 
-For these reasons, it is encouraged to take a photo of the field notes at the end of the mission and uploading it to the project's Data Portal repository folder for safe-keeping. These can be used to untangle metadata mysteries that might occur, and will preserve this information when projects are handed between technicians and staff changes occur.
+For these reasons, it is encouraged to take a photo of the field notes at the end of the mission and upload it to the project's Data Portal repository folder for safe-keeping. These can be used to untangle metadata mysteries that might occur, and will preserve this information when projects are handed between technicians.
 
 ![Example Raw Metadata Image](../fig/raw_metadata.jpeg)
 

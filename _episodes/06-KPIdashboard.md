@@ -30,7 +30,7 @@ Metrics here include:
 
 ### Exporting Tool
 
-The `Exporting Tool` menu option is to export the results form the KPI Dashboard in an Excel document. This is used by managers for reporting.
+The `Exporting Tool` menu option is to export the results from the KPI Dashboard in an Excel document. This is used by managers for reporting.
 
 ### Admin Tools
 
@@ -55,13 +55,13 @@ You are able to export as an XLSX, and soon as a CSV as well.
 
 This `Receiver Efficiency Index Tool` was developed to determine which stations are performing the best and worst in an array. This is based on the calculations presented in [Kendall et al. 2021](https://doi.org/10.1016/j.fishres.2020.105802)
 
-This tool allows you to choose a collection code and date range, and either view or export as interactive map displaying the "hot spots" of detection activity (yellow colour) in your array. This is important for OTN to use for array reconfiguration evaluations.
+This tool allows you to choose a collection code and date range, and either view or export an interactive map displaying the "hot spots" of detection activity (yellow colour) in your array. This is important for OTN to use for array reconfiguration evaluations.
 
 ![Receiver Efficiency Index Tool](../fig/rei_tool.PNG)
 
 ### Bibliography Graph
 
-The `Bibliography Graph` is the newest tool added to the Ops Dashboard. It is an interactive network plot showing the publications by OTN researchers, with links between researchers who have co-authored papers. Researchers who publish more have larger dots in the graph. The researchers are coloured according to which Network they are a member of.
+The `Bibliography Graph` is the newest tool added to the Ops Dashboard. It is an interactive network plot showing the publications by OTN researchers, with links between researchers who have co-authored papers. Researchers who publish more have larger dots in the graph. The researchers are coloured according to their Network membership.
 
 There several interactive filter options including by year. There are likely to be more developments on this tool in future.
 
