@@ -18,7 +18,7 @@ keypoints:
 
 As researchers who are part of the OTN Network, you are encouraged to register your projects and report your data and metadata in a timely manner to your Data Manager. This will benefit all researchers in the region through the database's detection-matching system.
 
-**This presentation** [ONC and OTN: a Collaboration](../files/ONC_workshop_2022_04.pptx) will cover some of the following topics.
+**This presentation** [Reporting to OTN](../files/field_workshop_2022_04.pptx) will cover some of the following topics.
 
 You are encouraged to read the [OTN FAQs Page](https://members.oceantrack.org/faq) for more information.
 
@@ -38,7 +38,7 @@ OTN and affiliated networks provide automated cross-referencing of your detectio
 
 ## Metadata Tips and Tricks
 
-Here are some field-specific guidelines for completing metadata. The OTN field team has their own metadata format, based on the Shortform Template, but containing OTN-specific columns, which is used for many projects. This deployment metadata sheet is available [here](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/Metadata%20Templates).
+Here are some field-specific guidelines for completing metadata. The OTN field team has their own metadata format, based on the Shortform Template, but containing OTN-specific columns, which is used for many projects. The OTN-Field deployment metadata sheet is available [here](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/Metadata%20Templates).
 
 If you are unsure of what information to put in a column, refer to the `Data Dictionary` tab of the metadata for other instructions.
 
@@ -100,5 +100,6 @@ Often, typos are introduced into metadata sheets while being transcribed. This m
 
 For these reasons, it is encouraged to take a photo of the field notes at the end of the mission and uploading it to the project's Data Portal repository folder for safe-keeping. These can be used to untangle metadata mysteries that might occur, and will preserve this information when projects are handed between technicians and staff changes occur.
 
+![Example Raw Metadata Image](../fig/raw_metadata.jpeg)
 
 {% include links.md %}

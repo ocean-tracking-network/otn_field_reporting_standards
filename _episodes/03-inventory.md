@@ -14,6 +14,8 @@ keypoints:
 
 In 2017 OTN deployed the [SnipeIT Inventory](https://ops.oceantrack.org/snipeit/) system to track equipment shipments to partners and internally. This is an open-source tool with an underlying database (OTNDC can access the underling database for internal metrics!). To ensure its success, there are a couple of additional features we should add to our regular repertoire.
 
+![Snipe Dasboard](../fig/snipe_dashboard.PNG)
+
 ## General Tasks
 
 OTN field technicians utilise SnipeIT on a regular basis, mainly doing the following activities:
@@ -61,7 +63,7 @@ When a new order of equipment has been received, its important to import the ass
 
 In order to use the batch import function, a `.csv` file needs to be created, following a standard template.
 
-**TODO add template**
+![Snipe Asset Import Template](../files/Asset_import_example.csv)
 
 The mandatory columns and their formats are:
 
@@ -103,7 +105,7 @@ Creating a new user:
 
 - Use the left-hand menu, choose `People`
 - there a two options to create a user
-	1. Clone and existing User by clicking on its name and choosing `Clone User` from the right-hand menu
+	1. Clone an existing User by clicking on its name and choosing `Clone User` from the right-hand menu
 	2. Create a new user by clicking `Create New` on the current user dashboard page
 - Either way, to create a user you need to fill out the following mandatory fields:
 	* Firstname = project code
