@@ -17,7 +17,7 @@ The Ocean Tracking Network (OTN) supports global telemetry research by providing
 
 ## OTN Field Technicians
 
-The OTN field team are a group of experts whose combined years of experience can be leveraged, with study design advice and field assistance, by OTN reporting researchers. The OTN field team deploy and maintain scientific infrastructure around the coasts of Canada, as well as in various regions around the world.
+The OTN Field team are a group of experts whose combined years of experience can be leveraged, with study design advice and field assistance, by OTN reporting researchers. The OTN field team deploy and maintain scientific infrastructure around the coasts of Canada, as well as in various regions around the world.
 
 OTN has recently added to its scientific fleet an ROV and a side scan sonar unit.  These tools allow for site evaluations as well as search and recovery of lost equipment.
 
@@ -29,7 +29,7 @@ OTN and affiliated networks provide automated cross-referencing of your detectio
 
 ## Better Together
 
-The OTN field and data teams need to work closely together through much of their workflows. Researchers often request information about OTN-managed infrastructure as soon as the field work is complete. Records need to be passed from the field team to OTNDC as soon as is feasible and with as high a degree of accuracy as possible. Current workflows may need adjustment to better serve the needs of the research community.
+The OTN Field and Data teams need to work closely together through much of their workflows. Researchers often request information about OTN-managed infrastructure as soon as the field work is complete. Records need to be passed from the field team to OTNDC as soon as is feasible and with as high a degree of accuracy as possible. Current workflows may need adjustment to better serve the needs of the research community.
 
 ## Intended Audience
 
@@ -41,6 +41,8 @@ In this walkthrough we will be looking at:
 - Tips and tricks for completing metadata
 - How to document ROV and SSS missions, and archive data
 - Introduction to the OTN Field Ops GitLab project
+- An overview of the OTN Ops Dashboard tools
+- Other info about the OTN Data System
 
 The walkthough will have many opportunities for discussion and feedback as we strive to improve these processes moving forward.
 

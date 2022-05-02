@@ -15,6 +15,8 @@ OTN's `Data Portal` [website](https://members.oceantrack.org) is similar to Drop
 
 OTN's `database` is built on PostgreSQL/PostGIS and is hosted on OTN hardware at Dalhousie University. Many partner Nodes are hosted at other locations. Users do not have direct write access to the database: the files posted in a Data Portal folder will be downloaded, quality controlled and loaded into the database by a Data Manager.
 
+
+
 # Useful tools for Field Techs
 
 OTN's Data Portal website is used extensively by OTNHQ staff members for many purposes. A few of these are highlighted below!
@@ -34,24 +36,27 @@ This page contains the following sections:
 	* for logged in users (unless project is public) - a link to the `Detection Extracts` subfolder in the project's repository
 	* a `stations` KML file containing the GPS locations of all stations
 	* a `deployments` CSV containing a summary of each deployment
-	* if a project is public - a KML and CSV file containing information regarding the projects tagged animal records
-6. A summary of all the projects who have been detected by the project and where those project's tags have been detected
+	* if a project is public - a KML and CSV file containing information regarding the project's tagged animal records
+6. A summary of all the tag-projects whose tags have been detected on the selected array and the array-projects which have detected their tags.
 
 ![Example Project Page](../fig/project_page_tools.PNG)
 
 ## Project repository
 
-A project's repository folder is only accessible to logged in Plone users who have been given specific permission to view the folder. OTN field staff should have access to all folders.
+A project's repository folder is only accessible to logged in Plone users who have been given specific permission to view the folder. OTN Field staff should have access to all folders.
 
-This is where researchers, and OTN staff, can share files with each other in a secure manner, ensuring they are archived properly. Below, a few relevant features are highlighted.
+This is where researchers, and OTN staff, can share files with each other in a secure manner, ensuring they are archived properly. 
 
 ![Example Repository](../fig/repository_template.PNG)
+
+Below, a few relevant features are highlighted.
 
 ### Data and Metadata
 
 This is a standard subfolder available in all project repository folders. This is the location for all tagging and deployment metadata, offloaded data files, and other useful documents. For OTN projects, often this folder is organized into `missions` and/or `years` for better coordination.
 
 Files and folders can be added using the `Add new...` option on the left-hand menu.
+
 
 #### Batch Uploading
 
@@ -63,7 +68,8 @@ If you are uploading multiple files at once, into the same folder, you can use t
 4. Click the `Upload` button and wait for the upload to complete before navigating away.
 5. When you are finished, return to your standard folder display by choosing `View` from the left-hand menu.
 
-**please do not Batch Upload single VRL files - these should be zipped together**
+**Please do not Batch Upload single VRL files - these should be zipped together**
+
 
 #### Editing/Renaming
 
@@ -81,6 +87,7 @@ Plone has a version-control history, so it is possible to revert back to a previ
 
 OTNDC staff receive an email each time you edit (or post) a file.
 
+
 #### Finding a current file
 
 Within the `Data and Metadata` subfolder, it can often be difficult to find the current year/mission folder. This is because the default sorting is based on the date the file/folder was created, from oldest to newest. We have manually re-sorted for many projects, so that the newest folder is at the top for easier access, but this is not the default.
@@ -89,13 +96,13 @@ Please ensure you scroll to check all available mission/year folders before you 
 
 Inside the newest folder, there may be multiple files. If the titles/descriptions do not make it clear which one is newest you can always review the `last modified` date to determine this.
 
-When in doubt: please ask OTNDC Staff to help you find the newest file or export a clean file from the database for you. This will make everyone's lives easier!
+When in doubt: please ask OTNDC staff to help you find the newest file or export a clean file from the database for you. This will make everyone's lives easier!
 
 ### Detection Extracts
 
 OTN and its partner Nodes create Detection Extracts on a semi-regular basis (approximately every 4 months) following a cross-Node coordinated detection matching event known as a Data Push. These Detection Extract files contain only the detections for the year corresponding to the suffix on the file name. See the detailed [detection extract documentation](https://members.oceantrack.org/data/otn-detection-extract-documentation-matched-to-animals) for more information.
 
-If you are ever interested in learning more about what a project has detected, you are welcome to check out the content in the Detection Extracts. Reminder that you **can not** share this information without reviewing the [OTN Data Policy](https://members.oceantrack.org/data/policies) or contacting OTNDC Staff for guidance.
+If you are ever interested in learning more about what a project has detected, you are welcome to check out the content in the Detection Extracts. Reminder that you **can not** share this information without reviewing the [OTN Data Policy](https://members.oceantrack.org/data/policies) or contacting OTNDC staff for guidance.
 
 ### Equipment
 

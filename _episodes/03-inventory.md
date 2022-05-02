@@ -12,13 +12,13 @@ keypoints:
 
 # SnipeIT Inventory System
 
-In 2017 OTN deployed the [SnipeIT Inventory](https://ops.oceantrack.org/snipeit/) system to track equipment shipments to partners and internally. This is an open-source tool with an underlying database (OTNDC can access the underling database for internal metrics!). To ensure its success, there are a couple of additional features we should add to our regular repertoire.
+In 2017, OTN deployed the [SnipeIT Inventory](https://ops.oceantrack.org/snipeit/) system to track equipment shipments to partners and internally. This is an open-source tool with an underlying database, which OTNDC can access for internal metrics. To ensure its success, there are a couple of additional features we should add to our regular repertoire.
 
 ![Snipe Dasboard](../fig/snipe_dashboard.PNG)
 
 ## General Tasks
 
-OTN field technicians utilise SnipeIT on a regular basis, mainly doing the following activities:
+OTN Field technicians utilise SnipeIT on a regular basis, mainly doing the following activities:
 
 ### Checking gear in/out
 
@@ -27,7 +27,7 @@ When a shipment is sent to/returned from a partner, or deployed/recovered by OTN
 Checking out equipment:
 
 - Use the left-hand menu, under `Assets` there is an option for `Bulk Checkout`
-- Ensure you know the project code (`User`) (or create a new user for that project - see section below)
+- Ensure you know the project code (`User`) or create a new user for that project - see section below.
 - Search for the assets you wish to checkout to that user. Only assets who's `Status` is deployable will appear
 - Press "checkout" when completed and review your work on the `Dashboard`!
 
@@ -61,27 +61,25 @@ When a new order of equipment has been received, its important to import the ass
 
 ### Import Template
 
-In order to use the batch import function, a `.csv` file needs to be created, following a standard template.
-
-[Snipe Asset Import Template](../files/Asset_import_example.csv)
+In order to use the batch import function, a `.csv` file needs to be created, following this standard template - [Snipe Asset Import Template](../files/Asset_import_example.csv)
 
 The mandatory columns and their formats are:
 
-- `Serial number`: numeric and unique, like `250688`
-- `category`: acoustic release, acoustic receiver deckbox, transducer, Acoustic Transceiver, Deckbox/Hydrophone
-- `manufacturer`: Vemco, Edgetech, Benthos, seabird, star oddi, subsea sonics etc. 
-- `model name`: short name for model. like `VR4`, `VR2AR`, `PORT-MFE` etc.
-- `full model`: from the vendor specifications, like `VR4-UWM-100-BAT-LI`
-- `asset tag`: vendor(shortened if needed) + model name + serial number. like `VEMCO-ASCENT-1234356`, `EDGET-PORT-MFE-34429`
-- `mftr no`: vemco sales order, like `34561`
-- `purchase date`: YYYY-MM-DD
+- `serial number`: numeric and unique, like `250688`
+- `category`: one of Acoustic Release, Acoustic Receiver Deckbox, Transducer, Acoustic Transceiver, or Deckbox/Hydrophone
+- `manufacturer`: one of Vemco, Edgetech, Benthos, Seabird, Star Oddi, Subsea Sonics etc. You can see a list of manufactuers [here](https://ops.oceantrack.org/snipeit/manufacturers/)
+- `model name`: short name for model, like `VR4`, `VR2AR`, `PORT-MFE` etc.
+- `full model`: model from the vendor specifications, like `VR4-UWM-100-BAT-LI`
+- `asset tag`: vendor (shortened if needed) + model name + serial number, like `VEMCO-ASCENT-1234356`, or `EDGET-PORT-MFE-34429`.
+- `mftr no`: vendor sales order, like `34561`
+- `purchase date`: in format YYYY-MM-DD
 - `purchased for`: project code. can be blank
-- `status`: Ready to Deploy, Deployed, In House, RMA etc.
-- `checked out to`: project code - based on the list of `Users` in snipe. can be blank
-- `date shipped`: YYYY-MM-DD. can be blank
-- `expected return`: YYYY-MM-DD. can be blank
-- `notes`: freeform text, include transmitter id (ex: A69-9001-12345) here if relevant
-- `purchase cost`: price per unit, like 123.00
+- `status`: Ready to Deploy, Deployed, In House, RMA etc. You can see a list of status labels [here](https://ops.oceantrack.org/snipeit/statuslabels/)
+- `checked out to`: project code - based on the list of `Users` in Snipe. can be blank if the asset is not yet assigned to a project.
+- `date shipped`: in format YYYY-MM-DD. can be blank
+- `expected return`: in format YYYY-MM-DD. can be blank
+- `notes`: freeform text. Please include transmitter ID (ex: A69-9001-12345) here if relevant
+- `purchase cost`: numeric price per unit, like `123.00`
 - `order number`: Dalhousie PO number, like `P09134476`
 
 You may edit the file in Excel, but please save as a `.csv` when you are finished. This will eliminate all special characters and formatting. If you have any issues, please reach out to OTNDC staff.
@@ -104,12 +102,12 @@ When there is a new project receiving OTN equipment, this project will need a `U
 Creating a new user:
 
 - Use the left-hand menu, choose `People`
-- there a two options to create a user
+- There are two options to create a User:
 	1. Clone an existing User by clicking on its name and choosing `Clone User` from the right-hand menu
 	2. Create a new user by clicking `Create New` on the current user dashboard page
-- Either way, to create a user you need to fill out the following mandatory fields:
-	* Firstname = project code
-	* Username = project code
+- Either way, to create a User you need to fill out the following mandatory fields:
+	* Firstname = project collectioncode
+	* Username = project collectioncode
 	* Password = anything random! no one will need to login
 	* Confirm Password = match above! no one will need to login
 	* Unselect the "Login enabled" button - no one will need to login
@@ -120,6 +118,8 @@ If you have any issues, please reach out to OTNDC staff.
 
 ## Fixing Errors in SnipeIT
 
-The SnipeIT database is backed up periodically by Dal IT staff, so the history is possible to recover if you make an error. However, its possible that the problem is easily fixable, depending on what happened! If you're unsure, please reach out to OTNDC staff. Currently, Brian Jones is the staff member responsible for Snipe.
+The SnipeIT underlying database is backed up periodically by Dal IT staff, so the history is possible to recover if you make an error. However, its possible that the problem is easily fixable, depending on what happened! If you're unsure, please reach out to OTNDC staff. Currently, Brian Jones is the staff member responsible for Snipe.
+
+
 
 {% include links.md %}

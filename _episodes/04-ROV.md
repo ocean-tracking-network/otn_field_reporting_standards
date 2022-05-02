@@ -18,11 +18,11 @@ Operators are also responsible for the constant verification and re-evaluation o
 
 ### Current OTN ROV Reporting Requirements
 
-The latest set of instructions for ROV/SSS Reporting will always be available on the [Field Ops GitLab](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/ROV%20and%20SSS%20Reporting).
+The latest set of instructions for ROV/SSS Reporting will always be available on the [Field Ops GitLab](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/ROV%20and%20SSS%20Reporting). Currently:
 
 
 1. When a request for an ROV project is received and scoped, a project needs to be entered into the [Loaner Operations project in Podio](https://podio.com/ocean-tracking-network-new/operations/apps/robotics-projects). This information will be used by the Project Management team to track the partnerships formed and any legal agreements required.
-2.  Once an ROV mission has been completed, the following information must be added by the Operator to [this OneDrive folder](https://dalu-my.sharepoint.com/:f:/g/personal/otndc_dal_ca/EnneuV4kB1hIlIIoeL1TbE0BAZH9OsCR--ClfC4u3SMffA?e=70KJFN). Direct uploading is necessary because the size of most of these files precludes them being emailed.
+2.  Once an ROV mission has been completed, the following information must be added by the Operator to [this OneDrive folder](https://dalu-my.sharepoint.com/:f:/g/personal/otndc_dal_ca/EnneuV4kB1hIlIIoeL1TbE0BAZH9OsCR--ClfC4u3SMffA?e=70KJFN). Direct uploading is necessary because the size of most of these files precludes them being emailed or posted on our Data Portal website.
 	- Data files from the instruments
 	- Video files from the instruments
 	- Any video clips that have been deemed relevant/interesting, or notes describing any significant video sections (for the Communications team).
@@ -35,7 +35,7 @@ Missions completed for other partners will get their own project created in the 
 
 ### Current OTN SSS Reporting Requirements
 
-The latest instructions for ROV/SSS Reporting will always be available on the [Field Ops GitLab](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/ROV%20and%20SSS%20Reporting).
+The latest instructions for ROV/SSS Reporting will always be available on the [Field Ops GitLab](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/ROV%20and%20SSS%20Reporting). Currently:
 
 1. When a request for a sidescan project is received and scoped, a project needs to be entered into the [Loaner Operations project in Podio](https://podio.com/ocean-tracking-network-new/operations/apps/robotics-projects). This information will be used by the Project Management team to track the partnerships formed and any legal agreements required.
 2. Once a sidescan mission has been completed, the following information must be added by the Operator to [this OneDrive folder](https://dalu-my.sharepoint.com/:f:/g/personal/otndc_dal_ca/EnneuV4kB1hIlIIoeL1TbE0BAZH9OsCR--ClfC4u3SMffA?e=70KJFN)
@@ -53,7 +53,7 @@ Missions completed for other partners will get their own project created in the 
 OTNDC's questions for the field team include:
 
 - What are the standard data files and formats that are currently collected by OTN ROV or SSS missions?
-- What extra information is generally important for post-processing / data analysis of these files? Instrument programming, weather conditions, oceanographic information? We can add these to and ROV-specific [Deployment metadata](https://members.oceantrack.org/data/data-collection/otn-glider-deployment-metadata-data-sheet-v2.xlsx)
+- What extra information is generally important for post-processing / data analysis of these files? Instrument programming, weather conditions, oceanographic information? We can add these to an ROV-specific [Deployment metadata](https://members.oceantrack.org/data/data-collection/otn-glider-deployment-metadata-data-sheet-v2.xlsx) since the current template was developed for gliders.
 - What do most professionals use to add geographic context to ROV/SSS missions? GPS trackfiles, start/end coordinates?
 - Are there standard reporting templates in use by our partners that we can or should adopt?
 
