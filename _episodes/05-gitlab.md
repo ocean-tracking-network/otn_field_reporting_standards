@@ -63,7 +63,7 @@ Top menu banner:
 
 For tasks that are repeated (Canadian shipments, international shipments, returning equipment, washups, Fedex insurance claims etc) the same set of steps are often required each time. GitLab Issues have an option to populate with a standardized `template checklist`.
 
-Currently, as a test, the Field Ops GitLab only has one template, for `found_gear`. However, if this is deemed successful we can expand to include shipping checklists, packing lists, etc.
+Currently, the Field Ops GitLab only has one template, for `found_gear`, and some common `shipping` tasks. However, if this is deemed successful we can expand.
 
 ### Using Issue Templates
 

@@ -19,7 +19,7 @@ This curriculum is public, so we cannot add the login credentials here, but plea
 
 ### View KPI
 
-The default summary page is the `KPI Dashboard`. This has a drop-down menu for each fiscal year, and contains Key Performance Indicator statistics which are required for annual reporting to CFI. These are pulled from the [KPI Project on Podio](https://podio.com/ocean-tracking-network-new/kpi) as well as the annual report survey sent out to all partners.
+The default summary page is the `KPI Dashboard`. This has a drop-down menu for each fiscal year, and contains Key Performance Indicator statistics which are required for annual reporting to CFI. These are pulled from the KPI reports on Asana as well as the annual report survey sent out to all partners.
 
 Metrics here include:
 - HQP Trained

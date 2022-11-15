@@ -75,11 +75,17 @@ For deployments where multiple remote downloads occur (5-year VR4 moorings), on 
 
 Generally, equipment is marked with a `y` in the recovery indicator column if recovery is successfully completed during a mission, or `n` if recovery has not yet been attempted for the specific mooring. There are other cases which need special consideration in the metadata:
 
-Marking equipment as lost:
+Recovered equipment:
 
-- if there is no communication from a mooring, please mark it as `lost` in the `recovered (y/n/l)` column and include comments
-- if this lost mooring is later found on station, it can be changed to `found` or another indicator
-- if a mooring is "stuck" (release has no communication but receiver is still communicating), please mark it as `failed` in the `recovered (y/n/l)` column and include comments
+ - please enter `y` to indicate successful recovery of the mooring.
+- if the mooring was recovered but is damaged (ex: flooded equipment) please indicate this in the data_downloaded column with an `n` and include comments
+
+Non-recovered equipment:
+
+- please enter `n` if recovery has not yet been attempted for the specific mooring
+- if there is no communication from a mooring, please mark it as `lost` in the recovered (y/n/l) column and include comments. If this lost mooring is later found on station, it can be changed to `found` or another indicator
+- if a mooring is “stuck” (release has no communication but the receiver is still communicating), please mark it as `failed` in the recovered (y/n/l) column and include comments
+- if a mooring was attempted but not recovered for logistical reasons, but it could be on-station (either stuck or recoverable) then enter `unknown` in the recovered (y/n/l) column and include comments. The `unknown` status will indicate that more investigation is needed to determine if the mooring is `lost`, `failed`, or can be recovered, and therefore this mooring will need to be serviced again at a future date.
 
 Found equipment:
 
@@ -98,7 +104,7 @@ Consecutive deployment number is helpful for tracking stations which have been r
 
 Often, typos are introduced into metadata sheets while being transcribed. This means that the true information is only found in the raw field notes, contained in muddy write-in-the-rain notebooks. These are easily lost and not easily searchable.
 
-For these reasons, it is encouraged to take a photo of the field notes at the end of the mission and upload it to the project's Data Portal repository folder for safe-keeping. These can be used to untangle metadata mysteries that might occur, and will preserve this information when projects are handed between technicians.
+For these reasons, it is **strongly encouraged** to take a photo of the field notes at the end of the mission and upload it to the project's Data Portal repository folder for safe-keeping. These can be used to untangle metadata mysteries that might occur, and will preserve this information when projects are handed between technicians.
 
 ![Example Raw Metadata Image](../fig/raw_metadata.jpeg)
 

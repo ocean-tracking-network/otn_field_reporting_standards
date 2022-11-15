@@ -70,7 +70,7 @@ The mandatory columns and their formats are:
 - `manufacturer`: one of Vemco, Edgetech, Benthos, Seabird, Star Oddi, Subsea Sonics etc. You can see a list of manufactuers [here](https://ops.oceantrack.org/snipeit/manufacturers/)
 - `model name`: short name for model, like `VR4`, `VR2AR`, `PORT-MFE` etc.
 - `full model`: model from the vendor specifications, like `VR4-UWM-100-BAT-LI`
-- `asset tag`: vendor (shortened if needed) + model name + serial number, like `VEMCO-ASCENT-1234356`, or `EDGET-PORT-MFE-34429`.
+- `asset tag`: **vendor (shortened if needed) + model name + serial number**, like `VEMCO-ASCENT-1234356`, or `EDGET-PORT-MFE-34429`.
 - `mftr no`: vendor sales order, like `34561`
 - `purchase date`: in format YYYY-MM-DD
 - `purchased for`: project code. can be blank
@@ -104,10 +104,11 @@ Creating a new user:
 - Use the left-hand menu, choose `People`
 - There are two options to create a User:
 	1. Clone an existing User by clicking on its name and choosing `Clone User` from the right-hand menu
-	2. Create a new user by clicking `Create New` on the current user dashboard page
+	1. Create a new user by clicking `Create New` on the current user dashboard page
 - Either way, to create a User you need to fill out the following mandatory fields:
 	* Firstname = project collectioncode
 	* Username = project collectioncode
+	* Email = if required, put otndc@dal.ca here
 	* Password = anything random! no one will need to login
 	* Confirm Password = match above! no one will need to login
 	* Unselect the "Login enabled" button - no one will need to login

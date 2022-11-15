@@ -32,8 +32,7 @@ For your interest, we have included here a presentation from OTN and FACT Manage
 
 To date, the greatest successes in organizing telemetry communities has come from identifying and working with local on-the-ground Node Managers for each affiliated Node. The trusted and connected 'data wranglers' have been essential to building and maintaining the culture and sense of trust in each telemetry group.
 
-Node Managers have been trained from groups including FACT, ACT, SAF, PATH, PIRAT and MigraMar.  OTNDC staff assist with node management for NEP, SAF and OTN.  
-
+Node Managers have been trained from groups including FACT, ACT, SAF, PATH, PIRAT and MigraMar.  OTNDC staff assist with node management for NEP, SAF, MigraMar and OTN.  
 
 ![Nodes and Data Partners](../fig/node_map.JPG)
 
