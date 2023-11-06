@@ -99,7 +99,7 @@ When in doubt: please ask OTNDC staff to help you find the newest file or export
 
 ### Detection Extracts
 
-OTN and its partner Nodes create Detection Extracts on a regular basis, every 4 months (Push months are February, June, and October) following a cross-Node coordinated detection matching event known as a Data Push. These Detection Extract files contain only the detections for the year corresponding to the suffix on the file name. See the detailed [detection extract documentation](https://members.oceantrack.org/data/otn-detection-extract-documentation-matched-to-animals) for more information.
+OTN and its partner Nodes create Detection Extracts on a regular basis, every 4 months (Push months are February, June, and October), following a cross-Node coordinated detection matching event known as a Data Push. These Detection Extract files contain only the detections for the year corresponding to the suffix on the file name. See the detailed [detection extract documentation](https://members.oceantrack.org/data/otn-detection-extract-documentation-matched-to-animals) for more information.
 
 If you are ever interested in learning more about what a project has detected, you are welcome to check out the content in the Detection Extracts. Reminder that you **can not share this information** without reviewing the [OTN Data Policy](https://members.oceantrack.org/data/policies) or contacting OTNDC staff for guidance.
 
@@ -109,7 +109,7 @@ This subfolder is the location where Shipping Lists can be posted and reviewed, 
 
 ### Background
 
-This subfolder is the location where OTN Project Management staff will upload loan agreements, project plans and legal paperwork if relevant. This folder is only visible to OTN staff members by default.
+This subfolder is the location where OTN Project Management staff will upload loan agreements, project plans, and legal paperwork, if relevant. This folder is only visible to OTN staff members by default.
 
 ## FAQ page
 

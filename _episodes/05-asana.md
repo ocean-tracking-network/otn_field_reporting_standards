@@ -1,94 +1,87 @@
 ---
-title: Introduction to GitLab
+title: Introduction to Asana
 teaching: 30
 exercises: 0
 questions:
-    - "What is the purpose of GitLab?"
-    - "How can the Field Team use GitLab?"
+    - "What is the purpose of Asana?"
+    - "How can the Field Team use Asana?"
 keypoints:
-    - "GitLab helps organize and archive tasks"
-    - "There are several ways GitLab can be used by the Field Team"
+    - "Asana helps organize and archive tasks"
+    - "There are several ways Asana is used by the Field Team"
 ---
 
-## OTN's GitLab
+## OTN's Asana
 
-At OTN, GitLab is used for internal record keeping and collaborative code development. The main purpose (for non-computer scientists at OTN) is the ability to use GitLab Issues containing templates of task-lists to ensure the DAQ team NEVER forgets a step in data loading, and that no file is ever lost/forgotten in an inbox. We track all communications with researchers and archive all important information for future use.
+At OTN, Asana is used for internal record keeping and collaborative action item tracking.  
 
-GitLab allows us to be accountable, thorough, and comprehensive in our data-loading process. This is essential for smooth communication and acts as a searchable archive of OTN's institutional memory.
+Asana allows us to be accountable, thorough, and comprehensive in our processes. This is essential for smooth communication and acts as a searchable archive of OTN's institutional memory. Asana has replaced Podio and GitLab for the Field Team.
 
-## Field Ops Gitlab
+Why Asana?
+* Enable automation and streamline workflows 
+* Enhance organizational cohesion  
+* Increase accountability and awareness of who is responsible 
+* Minimize duplication of effort at the individual and organizational levels 
+* Integrate existing tools (e.g., Slack, OneDrive) 
+* Powerful tool for collaborative working and task management 
 
-As the Field team has grown, job descriptions have expanded, and remote work has become more common it is now important to start using some of the lessons learned by the Data team to improve Field Ops communications. For this reason, there is now a **Field Team GitLab** project - [https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops).
+OTN has several relevant Asana projects, beyond `Field Operations` (described below), that you will need to interact with.
+- **OTNHQ:** a space for HQ-wide resources, including communications resources, swag inventory tracking, and onboarding/offboarding processes.
+- **Key Performance Indicators:** the space to track all KPIs to ensure they roll into the KPI dashboard.
+- **Field Management:** the place where all loaner-operations are tracked and managed.
 
-Each OTN Field team member should have a GitLab account created - please fill out this [signup form for an account on GitLab](https://gitlab.oceantrack.org/users/sign_up) if you don't have an account already.
 
-This Field Ops Gitlab has been created as a place to track complex / important / outstanding issues so that they can be contributed to collaboratively and archived for future reference. This will be used in addition to Slack to make sure all Field Team members are communicating and information does not slip between the cracks of our busy schedules.
+## Field Operations Project
 
-Gitlab Issues should be created to track:
+As the Field team has grown, job descriptions have expanded, and remote work has become more common it is now important to start using some of the lessons learned by the Data team to improve Field Ops communications. For this reason, there is now a **Field Team Asana**  - [https://app.asana.com/0/1201938039482799/overview](https://app.asana.com/0/1201938039482799/overview).
 
-- lost equipment
-- equipment returns
-- found equipment
-- RMAs, including the outcome as reported by the manufacturer, and all data files (these usually are just emailed)
-- deployment or metadata issues / questions from PIs that need digging into
-- outstanding purchase orders
-- anything that is too complicated to track via email and/or involves too many people
+Each OTN Field team member should have an Asana account created - please contact Project Management.
 
-Current members of this Gitlab Project include: all Field staff, members of the Project Management Office, some members of the Data Team. Please tag them in an issue (using the @ symbol) to prompt them for input.
+![FieldOps Asana Home Page](../fig/fieldops_asana_home.PNG)
 
-Field team members leave (for vacation, or permanently) and so a shared record of important events will be essential to ensure knowledge-transfer. Having the information in your email is a great first step, but it may become lost or buried and is not easily shared/searched by colleagues.
+This Field Ops Asana has been created as a place to track complex / important / outstanding issues so that they can be contributed to collaboratively and archived for future reference. This will be used in addition to Slack to make sure all Field Team members are communicating and information does not slip between the cracks of our busy schedules.
 
-![FieldOps GitLab Home Page](../fig/fieldops_gitlab_home.PNG)
+Asana projects include:
 
-## How to Use GitLab
+- **Mission Planning:** forecast for upcoming missions, the field lead, and the required details needed leading up to the mission.
+- **Field Shipping:** track the incoming and outgoing OTN owned equipment shipments that are overseen by the field team. 
+- **Procurement:** keep track of equipment and consumables that need ordering, are incoming or have been received 
+- **Consumable/Inventory Supply:** use this space in tandem with Procurement for consumable items to ensure we have all required equipment for upcoming missions
+- **Found Gear Report:** submit and keep up with found gear reports, ensuring their return status to OTNHQ and reward payments
+- **Refurbishments:** keep track of necessary refurbishments of OTN owned equipment 
+- **Equipment/Supply sign out:** keep track of mission based equipment within the OTN field team 
+- **Safety Equipment Inventory:** keep track of mission based equipment within the OTN field team 
+- **Registrations and Certifications:** keep track of registrations/certifications and their expiration date. 
+- **Truck:** use this space to ensure that all truck/trailer registrations and upkeep are documented and up-to-date.
+- **RMA:** track the status, and serial numbers, for all RMAs.
+- **Receiver Inventory (@ HQ):** relevant for Field Management - how many instruments of each model do we have in-house?
+- **TOIL:** Use this space to keep track of your accumulated Time Off in Lieu.
 
-Menu on the left-hand sidebar:
-- `Project information` allows changes to Members and permissions
-- `Repository` contains Issue templates
-- `Issues` contains all ongoing (and completed) Issues!
-- `Deployments` is not used
-- `Wiki` contains helpful documentation and links for you!
-- `Snippets` can contain standard text blocks (email templates), code blocks (quick DB queries), or other things
-- `Settings` allows changes to the functionality of the GitLab Project
+You will likely use the `Field Shipping`, `Mission Planning`, `Found Gear Reporting` and `TOIL` projects most often.
 
-Top menu banner:
-- Shows your main `Menu`, with all the GitLab projects of which you are a member
-- Has a `search` function, which can be used to find Issues using keywords
-- Has your personal `Issue Dashboard` with all Issues assigned to you
-- Has personal and `account` Settings
 
-**You will use the `Issues` and `Wiki` left-hand sidebar options, and the personal `Issue Dashboard` in the top menu banner (right side) most often.**
+## Exploring Projects
 
-## Issue Templates
+Each Project in Field Operations should include information in an `Overview` tab. This will detail exactly how to use this project, and how to complete the `Tasks` within it. This will differ for each project and therefore will not be covered in this curriculum.
 
-For tasks that are repeated (Canadian shipments, international shipments, returning equipment, washups, Fedex insurance claims etc) the same set of steps are often required each time. GitLab Issues have an option to populate with a standardized `template checklist`.
+Current members of this Asana Project include: all Field staff and members of the Project Management Office. Please tag them in any tasks (using the @ symbol) to prompt them for input.
 
-Currently, the Field Ops GitLab only has one template, for `found_gear`, and some common `shipping` tasks. However, if this is deemed successful we can expand.
+![Project Overview](../fig/asana_project_overview.PNG)
 
-### Using Issue Templates
 
-When you navigate to `Issues` on the left-hand sidebar menu, there will be an option to create a `New Issue`. By choosing the New Issue button in the top-right of your screen, you will be taken to a new, blank, issue form. To fill out the fields you will need to do the following:
-- Title (something informative, ex: HFX washup 2022-04)
-- Type: No need to edit this field, should be type `Issue`.
-- Description: If if you wish to use a pre-made checklist `Template`, you will choose it here, using the drop down menu. Ensure you choose the relevant checklist for the type of issue you are creating (ex: found_gear). This will populate the large description field! 
-- Milestone: These can be setup to be deadlines, but can be left blank
-- Labels: This is for your reference - choose a label that will help you remember the reason this issue exists. Some common examples include `FOUND GEAR`, `Data/Metadata Problem`, `Legal`, `RMA` etc. You can create new labels at any time to help categorize the Issues!
+## Tasks 
+Within each project there are `Tasks` - these are the action items, and often contain subtasks with deadlines for completion. A `Task` may be defined differently in different projects - Ex: in `Found Gear Reporting` each task is one "washup". In Receiver Inventory it's a specific model of receiver.
 
-Now, with all information completed, you can select Create Issue.
+Often, there is automation built into the creation of `Tasks` or `Subtasks` in a project. This helps us remember _when_ we can complete each step of our action item. A great example is the `Field Shipping` project. Once a shipment's status is changed to `Active shipment` then additional subtasks are populated for the assignee to follow. Similarly, if the shipment is labelled as Incoming vs. Outgoing there are different subtasks automatically created and so forth.
 
-![GitLab Issue Creation - with templates](../fig/new_gitlab_issue.PNG)
+Tasks can be reassigned when needed to ensure they're not forgotten when a staff member goes on vacation or on a field mission.
 
-## GitLab Wiki
+You can see all `Tasks` and `Subtasks` assigned to you, with their due dates, in the left-hand menu option `My Tasks`. **You need to check these every day to ensure you are not missing tasks assigned to you by Project Management or other teams.**
 
-The Field Ops GitLab has a [Wiki page](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/home) where important files, templates, and procedures are outlined. Currently, there are several resources available to assist with day-to-day activities for the Field Team:
+![Asana Structure](../fig/asana_structure.PNG)
 
-- Metadata Templates
-- Shipping Procedures
-- Lost & Found Gear Report Form
-- ROV/SSS Reporting
-- link to the OTN Wiki SOPs
 
-Theoretically, this curriculum should cover the same content as the Wiki, but the Wiki is a good reference as well and can be edited to contain any information deemed important.
+## More Information
 
+The Field Ops Asana has a [Onboarding Powerpoint](https://dalu-my.sharepoint.com/:p:/r/personal/cr680210_dal_ca/Documents/Meeting%20Minutes/Field%20Team%20Meeting%20Minutes/OTN%20Field%20Ops%20Meeting%202023/Retreat/fieldteam_onboarding.pptx?d=wb856573287bb42b7b96ade10cfcc785d&csf=1&web=1&e=s1n2r9) with all the details needed to learn how to navigate Asana!
 
 {% include links.md %}
