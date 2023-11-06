@@ -34,12 +34,12 @@ To date, the greatest successes in organizing telemetry communities has come fro
 
 Node Managers have been trained from groups including FACT, ACT, SAF, PATH, PIRAT and MigraMar.  OTNDC staff assist with node management for NEP, SAF, MigraMar and OTN.  
 
-![Nodes and Data Partners](../fig/node_map.JPG)
+![Nodes and Data Partners](../fig/node_map_updated.JPG)
 
 
 ## Node Training
 
-Each year OTN hosts a training session for Node Managers. This session is not only for new Node Managers, but also a refresher for current Node Managers on our updated tools and processes.
+Each year OTN hosts a training session for Node Managers. This session is not only for new Node Managers, but also a refresher for current Node Managers on our updated tools and processes. The curriculum is available [here](https://ocean-tracking-network.github.io/node-manager-training/).
 
 ## Data Partners
 

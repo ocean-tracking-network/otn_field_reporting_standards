@@ -13,7 +13,6 @@ keypoints:
 
 # Beyond Telemetry Reporting
 
-
 OTN serves the telemetry and broader scientific community through its primary purpose, as a data aggregation node, but that is not where the community support ends.  In addition to curating and brokering interproject telemetry records, OTN has the following aspects:
 
 ## OBIS publishing
@@ -28,7 +27,7 @@ OTN creates DOI data sets when requested by researchers. These DOIs primarily su
 
 ## Study Halls
 
-To reduce the stress of working in isolation, especially for early career researchers, OTN established a weekly 'Study Hall' session. Networking and collaborative problem solving in a virtual setting are hosted with a broad geographic attendance.
+To reduce the stress of working in isolation, especially for early career researchers, OTN established a weekly 'Study Hall' session. Networking and collaborative problem solving in a virtual setting are hosted with a broad geographic attendance. We strongly encourage Field Techs to attend! They occur every Thursday from 2-4 Atlantic. Contact OTNDC for a Zoom link.
 
 ![study hall map](../fig/study_hall_attendees.jpg)
 
@@ -39,14 +38,7 @@ OTN has hosted many workshops in the past which contain different code sets rela
 - [OTN's Workshop Base Code](https://ocean-tracking-network.github.io/otn-workshop-base/)
     - This is used to create custom workshops when requested.
 
-Past custom workshops with repositories and webpages:
-- [GLATOS meeting workshop 2020](https://ocean-tracking-network.github.io/2020-02-27-glatos-workshop)
-
-- [DFO workshop 2020](https://ocean-tracking-network.github.io/2020-03-11-DFOBIO-telemetry-workshop/)
-
-- [FACT workshop 2021](https://ocean-tracking-network.github.io/2021-12-15-fact-workshop/)
-
-- IdeasOTN Telemetry Workshop Series 2020: [code repository ](https://github.com/kimwhoriskey/ideasOTNtws2020code) and [YouTube recordings](https://www.youtube.com/playlist?list=PL_06zLsCWuDRnmIKaMHTBlg5KTKS76k6u)
+Past custom workshops with repositories and webpages are listed [here](https://ocean-tracking-network.github.io/otn-workshop-base/16-other-curriculums/index.html)
 
 
 {% include links.md %}

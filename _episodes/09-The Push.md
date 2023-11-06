@@ -20,12 +20,14 @@ Push events happen **three** times a year. They start on the third Thursday of t
 
 With the increased number of Nodes joining the Pushes, we are announcing the schedule for the next year. Please prepare in advance and mark your calendars.
 
-Push schedule through 2023:
+Example Push schedule through 2023:
 - June 23, 2022
 - October 20, 2022
 - February 16, 2023
 - June 15, 2023
 - October 19, 2023
+
+**As OTN Field Techs you will have a submission cut-off date one week before the actual Push begins**
 
 ### Activities During the Push
 

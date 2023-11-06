@@ -13,9 +13,9 @@ OTNDC has developed an interactive web-based dashboard for Project Management st
 
 This curriculum is public, so we cannot add the login credentials here, but please email OTNDC@Dal.ca for information if you are interested.
 
-**Note**: this is for internal use only! The output from any of these KPI tools should not be shared externally without first discussing with Project Management or OTNDC.
+**Note**: this is for internal use only! The output from any of these KPI tools can **not** be shared externally without first discussing with Project Management or OTNDC.
 
-![Dashboard Banner](../fig/dashboard_banner.PNG)
+![Dashboard Banner](../fig/dashboard_banner_updated.PNG)
 
 ### View KPI
 
@@ -46,10 +46,9 @@ The `Receiver Report Tool` has a direct link to the OTN Database, and can be use
 
 You are able to export as an XLSX, and soon as a CSV as well.
 
+**TIP: use this to trackdown shipping chaos - where has a receiver been reporting?**
 
-**Note**: the year filter currently only shows receivers deploying **in** that year. This means that 5-year moorings (ex: HFX) will only appear in the year they were deployed, not all years they were active. This is something we are changing soon.
-
-![Receiver Report Tool](../fig/receiver_report_tool.PNG)
+![Receiver Report Tool](../fig/receiver_report_tool_updated.PNG)
 
 ### Receiver Efficiency Index Tool
 
@@ -57,7 +56,7 @@ This `Receiver Efficiency Index Tool` was developed to determine which stations 
 
 This tool allows you to choose a collection code and date range, and either view or export an interactive map displaying the "hot spots" of detection activity (yellow colour) in your array. This is important for OTN to use for array reconfiguration evaluations.
 
-![Receiver Efficiency Index Tool](../fig/rei_tool.PNG)
+![Receiver Efficiency Index Tool](../fig/rei_tool_updated.PNG)
 
 ### Bibliography Graph
 
