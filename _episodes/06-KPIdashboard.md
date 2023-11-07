@@ -46,7 +46,7 @@ The `Receiver Report Tool` has a direct link to the OTN Database, and can be use
 
 You are able to export as an XLSX, and soon as a CSV as well.
 
-**TIP: use this to trackdown shipping chaos - where has a receiver been reporting?**
+**TIP: use this to track down shipping chaos - where has a receiver been reporting?**
 
 ![Receiver Report Tool](../fig/receiver_report_tool_updated.PNG)
 

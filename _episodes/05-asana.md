@@ -24,13 +24,13 @@ Why Asana?
 * Integrate existing tools (e.g., Slack, OneDrive) 
 * Powerful tool for collaborative working and task management 
 
-OTN has several relevant Asana projects, beyond `Field Operations` (described below), that you will need to interact with.
+OTN has several relevant Asana Teams, beyond `Field Operations` (described below), that you will need to interact with.
 - **OTNHQ:** a space for HQ-wide resources, including communications resources, swag inventory tracking, and onboarding/offboarding processes.
 - **Key Performance Indicators:** the space to track all KPIs to ensure they roll into the KPI dashboard.
-- **Field Management:** the place where all loaner-operations are tracked and managed.
+- **Field Management:** the place where all loaner-operations are tracked and managed. This team is extremely important, and relates directly into the `Projects` within Field Operations (ex: Shipping).
 
 
-## Field Operations Project
+## Field Operations Team
 
 As the Field team has grown, job descriptions have expanded, and remote work has become more common it is now important to start using some of the lessons learned by the Data team to improve Field Ops communications. For this reason, there is now a **Field Team Asana**  - [https://app.asana.com/0/1201938039482799/overview](https://app.asana.com/0/1201938039482799/overview).
 
@@ -44,12 +44,12 @@ Asana projects include:
 
 - **Mission Planning:** forecast for upcoming missions, the field lead, and the required details needed leading up to the mission.
 - **Field Shipping:** track the incoming and outgoing OTN owned equipment shipments that are overseen by the field team. 
-- **Procurement:** keep track of equipment and consumables that need ordering, are incoming or have been received 
-- **Consumable/Inventory Supply:** use this space in tandem with Procurement for consumable items to ensure we have all required equipment for upcoming missions
-- **Found Gear Report:** submit and keep up with found gear reports, ensuring their return status to OTNHQ and reward payments
-- **Refurbishments:** keep track of necessary refurbishments of OTN owned equipment 
-- **Equipment/Supply sign out:** keep track of mission based equipment within the OTN field team 
-- **Safety Equipment Inventory:** keep track of mission based equipment within the OTN field team 
+- **Procurement:** keep track of equipment and consumables that need ordering, are incoming or have been received. 
+- **Consumable/Inventory Supply:** use this space in tandem with Procurement for consumable items to ensure we have all required equipment for upcoming missions.
+- **Found Gear Report:** submit and keep up with found gear reports, ensuring their return status to OTNHQ and reward payments.
+- **Refurbishments:** keep track of necessary refurbishments of OTN owned equipment. 
+- **Equipment/Supply sign out:** keep track of mission based equipment within the OTN field team. 
+- **Safety Equipment Inventory:** keep track of mission based equipment within the OTN field team. 
 - **Registrations and Certifications:** keep track of registrations/certifications and their expiration date. 
 - **Truck:** use this space to ensure that all truck/trailer registrations and upkeep are documented and up-to-date.
 - **RMA:** track the status, and serial numbers, for all RMAs.
