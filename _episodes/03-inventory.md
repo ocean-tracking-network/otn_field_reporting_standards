@@ -45,14 +45,13 @@ Checking in equipment:
 
 ### Changing status of equipment
 
-Sometimes, you need to change the status of equipment in order to checkout the asset. The status will also need to be changed for units which are being shipped for RMA.
-
+Sometimes, you need to change the status of equipment in order to checkout the asset. The status will also need to be changed for units which are lost or being shipped for RMA.
 - Use the left-hand menu, under `Assets` there is an option to `List All`
 - Here you can use the search bar in the top and type in the asset's serial number
 - Once you find the asset, click on the `Asset Tag` to see the asset page
 - Choose the `Actions` button in the top-right
 - Choose `Edit Asset`
-- Select an appropriate `Status` for the asset (in house, RMA, deployable, ready to deploy, shipped etc).
+- Select an appropriate `Status` for the asset (in house, RMA, deployed, ready to deploy, etc).
 - Press "save" when ready, and review your work on the `Dashboard`!
 
 ## Batch Import
@@ -78,7 +77,7 @@ The mandatory columns and their formats are:
 - `checked out to`: project code - based on the list of `Users` in Snipe. can be blank if the asset is not yet assigned to a project.
 - `date shipped`: in format YYYY-MM-DD. can be blank
 - `expected return`: in format YYYY-MM-DD. can be blank
-- `notes`: freeform text. Please include transmitter ID (ex: A69-9001-12345) here if relevant
+- `notes`: freeform text. Please include transmitter ID (ex: A69-9001-12345) here, when relevant (for VR2ARs, VR2TXs, HR2s etc)
 - `purchase cost`: numeric price per unit, like `123.00`
 - `order number`: Dalhousie PO number, like `P09134476`
 

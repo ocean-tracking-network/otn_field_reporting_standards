@@ -19,7 +19,7 @@ The Ocean Tracking Network (OTN) supports global telemetry research by providing
 
 The OTN Field team are a group of experts whose combined years of experience can be leveraged, with study design advice and field assistance, by OTN reporting researchers. The OTN field team deploy and maintain scientific infrastructure around the coasts of Canada, as well as in various regions around the world.
 
-OTN has recently added to its scientific fleet an ROV and a side scan sonar unit.  These tools allow for site evaluations as well as search and recovery of lost equipment.
+OTN has recently added to its scientific fleet several ROVs and a side scan sonar unit.  These tools allow for site evaluations as well as search and recovery of lost equipment.
 
 All of these field endeavours generate an enormous amount of data and metadata records - irreplaceable and of great value to researchers.
 
@@ -40,9 +40,10 @@ In this walkthrough we will be looking at:
 - How to do common tasks in the SnipeIt Inventory system
 - Tips and tricks for completing metadata
 - How to document ROV and SSS missions, and archive data
-- Introduction to the OTN Field Ops GitLab project
+- Introduction to the OTN Field Ops Asana project
 - An overview of the OTN Ops Dashboard tools
 - Other info about the OTN Data System
+- (obsolete) Introduction to the OTN Field Ops GitLab project
 
 The walkthough will have many opportunities for discussion and feedback as we strive to improve these processes moving forward.
 

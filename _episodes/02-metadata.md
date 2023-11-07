@@ -38,7 +38,7 @@ OTN and affiliated networks provide automated cross-referencing of detection dat
 
 ## Metadata Tips and Tricks
 
-Here are some field-specific guidelines for completing metadata. The OTN Field team has their own metadata format, based on the Shortform Template, but containing OTN-specific columns, which is used for many projects. The OTN-Field deployment metadata sheet is available [here](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/Metadata%20Templates).
+Here are some field-specific guidelines for completing metadata. The OTN Field team has their own metadata format, based on the Shortform Template, but containing OTN-specific columns, which is used for many projects. The **OTN-Field deployment metadata sheet is available [here](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/Metadata%20Templates).**
 
 If you are unsure of what information to put in a column, refer to the `Data Dictionary` tab of the metadata for other instructions.
 
@@ -46,10 +46,10 @@ If you are unsure of what information to put in a column, refer to the `Data Dic
 
 When a mission contains deployments, there is some information needed:
 
-- exact waypoint lat/long of deployment (will often differ from the intended location, and is taken from ship's gps or similar)
+- exact waypoint lat/long of deployment (will often differ from the intended location, and is taken from ship's GPS or similar)
 - the deployment date and time (in UTC)
-- the serial numbers of all instruments
-- information about the depth of the water and the riser used (all in meters). **Hint**: the instrument_depth should always be equal to bottom_depth minus riser_length.
+- the serial numbers of all instruments (including environmental sensors)
+- information about the depth of the water and the riser used (in meters). **Hint**: the instrument_depth should always be equal to bottom_depth minus riser_length.
 
 OTN staff have had great success with recording deployments properly.
 
@@ -69,7 +69,7 @@ When a mission contains stations which are remotely downloaded, metadata still n
 - the download date and time (in UTC)
 - and indicator about the success of the download, and notes to accompany this
 
-For deployments where multiple remote downloads occur (5-year VR4 moorings), on each download, you replace the previously listed download date in the metadata with the new date and accompanying comments.
+**TIP:** For deployments where multiple remote downloads occur (5-year+ VR4 moorings), on each download, you replace the previously listed download date in the metadata with the new date and accompanying comments.
 
 ### Lost or Found Gear
 
@@ -77,7 +77,7 @@ Generally, equipment is marked with a `y` in the recovery indicator column if re
 
 Recovered equipment:
 
- - please enter `y` to indicate successful recovery of the mooring.
+- please enter `y` to indicate successful recovery of the mooring.
 - if the mooring was recovered but is damaged (ex: flooded equipment) please indicate this in the data_downloaded column with an `n` and include comments
 
 Non-recovered equipment:
@@ -89,7 +89,7 @@ Non-recovered equipment:
 
 Found equipment:
 
-- if a fishing vessel drags up or reports catching the mooring, please mark it as `caught` in the `recovered (y/n/l)` column and include comments 
+- if a fishing vessel drags up or reports catching the mooring, please mark it as `caught` in the recovered (y/n/l) column and include comments 
 - if a receiver is found on a shoreline, please mark it as `found` and include comments
 
 Other accepted terms include `moved`, which is used when a mooring is recovered successfully, but was a substantial distance from its deployment location suggesting fishing interactions or movement during a storm.
