@@ -39,7 +39,7 @@ This page contains the following sections:
 
 **You will likely be most interested in the information from item 6 - this can be used to learn about detections without contacting OTNDC**
 
-![Example Project Page](../fig/project_page_tools.PNG)
+![Example Project Page](/fig/project_page_tools.PNG)
 
 ## Project repository
 
@@ -47,7 +47,7 @@ A project's repository folder is only accessible to logged-in Plone users who ha
 
 This is where researchers, and OTN staff, can share files with each other in a secure manner, ensuring they are archived properly. 
 
-![Example Repository](../fig/repository_template.PNG)
+![Example Repository](/fig/repository_template.PNG)
 
 Below, a few relevant features are highlighted.
 
@@ -117,7 +117,7 @@ OTNDC has created a [Frequently Asked Questions](https://members.oceantrack.org/
 
 If there are topics you think should be added, please reach out to OTNDC - this page can be updated at any time to remain valuable to users.
 
-![Current FAQs](../fig/FAQ_page_updated.PNG)
+![Current FAQs](/fig/FAQ_page_updated.PNG)
 
 ## Statistics Page
 
@@ -130,6 +130,6 @@ OTNDC has created a [Statistics](https://members.oceantrack.org/statistics) page
 
 Additional summaries or plots can be created by OTNDC staff upon request, and if the need arises, even incorporated into this webpage. Reach out if you have ideas!
 
-![Example from Statistics Page](../fig/stats_page.PNG)
+![Example from Statistics Page](/fig/stats_page.PNG)
 
 {% include links.md %}

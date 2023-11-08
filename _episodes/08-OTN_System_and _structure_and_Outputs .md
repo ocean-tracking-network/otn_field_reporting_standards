@@ -45,7 +45,7 @@ In addition to the project-specific `schemas`, there are some important common s
 The amount of information shared through the discovery tables can be adjusted based on sharing and reporting requirements for each Node. For example, the OTN data policy allows OTN to share receiver locations, and project bounds, while the FACT data policy does not allow receiver locations, and so the discovery tables in FACT do not have that information.
 
 
-![OTN Database - path of data through the system](../fig/Path_of_data.png)
+![OTN Database - path of data through the system](/fig/Path_of_data.png)
 
 ## The Path of Data
 
@@ -71,7 +71,7 @@ Even though `tag`, `deployment`, and `detections` data all have their own loadin
 - After the raw data table is verified, the data moves to the `intermediate` tables which hold partially-processed data as a "staging area".
 - After the intermediate table is verified, data moves to the `upper` tables, where the data is finished processing and is in its "final form". This is the data that will be used for aggregation tables such as `obis` and for outputs such as `Detection Extracts`.
 
-![OTN Database - structural ER diagram](../fig/db_diagram.png)
+![OTN Database - structural ER diagram](/fig/db_diagram.png)
 
 ## OTN Data Products
 
@@ -84,7 +84,7 @@ In order to create meaningful Detection Extracts, OTN and affiliated Nodes only 
 - Summary schemas like `discovery`, `erddap`, and `geoserver` are updated with the newly verified and updated data.
 - Summary schema records can be used to create maps and other record overviews such as this map of active OTN receivers:
 
- <img src="../fig/active_receivers.JPG" alt="Summary Map" style="width:500px;"/>
+ <img src="/fig/active_receivers.JPG" alt="Summary Map" style="width:500px;"/>
  
 ## Backing Up Data
 

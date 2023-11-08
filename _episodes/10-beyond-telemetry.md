@@ -29,7 +29,7 @@ OTN creates DOI data sets when requested by researchers. These DOIs primarily su
 
 To reduce the stress of working in isolation, especially for early career researchers, OTN established a weekly 'Study Hall' session. Networking and collaborative problem solving in a virtual setting are hosted with a broad geographic attendance. We strongly encourage Field Techs to attend! They occur every Thursday from 2-4 Atlantic. Contact OTNDC for a Zoom link.
 
-![study hall map](../fig/study_hall_attendees.jpg)
+![study hall map](/fig/study_hall_attendees.jpg)
 
 ## Workshops
 

@@ -14,7 +14,7 @@ keypoints:
 
 In 2017, OTN deployed the [SnipeIT Inventory](https://ops.oceantrack.org/snipeit/) system to track equipment shipments to partners and internally. This is an open-source tool with an underlying database, which OTNDC can access for internal metrics. To ensure its success, there are a couple of additional features we should add to our regular repertoire.
 
-![Snipe Dasboard](../fig/snipe_dashboard.PNG)
+![Snipe Dasboard](/fig/snipe_dashboard.PNG)
 
 ## General Tasks
 
@@ -60,7 +60,7 @@ When a new order of equipment has been received, its important to import the ass
 
 ### Import Template
 
-In order to use the batch import function, a `.csv` file needs to be created, following this standard template - [Snipe Asset Import Template](../files/Asset_import_example.csv)
+In order to use the batch import function, a `.csv` file needs to be created, following this standard template - [Snipe Asset Import Template](/files/Asset_import_example.csv)
 
 The mandatory columns and their formats are:
 

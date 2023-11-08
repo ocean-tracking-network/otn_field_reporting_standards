@@ -18,7 +18,7 @@ keypoints:
 
 Researchers who are part of the OTN Network are encouraged to register their projects and report data and metadata in a timely manner to their Data Manager. This will benefit all researchers in the region through the database's detection-matching system.
 
-**This presentation** [Reporting to OTN](../files/field_workshop_2022_04.pptx) will cover some of the following topics.
+**This presentation** [Reporting to OTN](/files/field_workshop_2022_04.pptx) will cover some of the following topics.
 
 You are encouraged to read the [OTN FAQs Page](https://members.oceantrack.org/faq) for more information.
 
@@ -106,6 +106,6 @@ Often, typos are introduced into metadata sheets while being transcribed. This m
 
 For these reasons, it is **strongly encouraged** to take a photo of the field notes at the end of the mission and upload it to the project's Data Portal repository folder for safe-keeping. These can be used to untangle metadata mysteries that might occur, and will preserve this information when projects are handed between technicians.
 
-![Example Raw Metadata Image](../fig/raw_metadata.jpeg)
+![Example Raw Metadata Image](/fig/raw_metadata.jpeg)
 
 {% include links.md %}

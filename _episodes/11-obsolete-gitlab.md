@@ -40,7 +40,7 @@ Current members of this Gitlab Project include: all Field staff, members of the 
 
 Field team members leave (for vacation, or permanently) and so a shared record of important events will be essential to ensure knowledge-transfer. Having the information in your email is a great first step, but it may become lost or buried and is not easily shared/searched by colleagues.
 
-![FieldOps GitLab Home Page](../fig/fieldops_gitlab_home.PNG)
+![FieldOps GitLab Home Page](/fig/fieldops_gitlab_home.PNG)
 
 ## How to Use GitLab
 
@@ -78,7 +78,7 @@ When you navigate to `Issues` on the left-hand sidebar menu, there will be an op
 
 Now, with all information completed, you can select Create Issue.
 
-![GitLab Issue Creation - with templates](../fig/new_gitlab_issue.PNG)
+![GitLab Issue Creation - with templates](/fig/new_gitlab_issue.PNG)
 
 ## GitLab Wiki
 
