@@ -34,7 +34,7 @@ To date, the greatest successes in organizing telemetry communities has come fro
 
 Node Managers have been trained from groups including FACT, ACT, SAF, PATH, PIRAT and MigraMar.  OTNDC staff assist with node management for NEP, SAF, MigraMar and OTN.  
 
-![Nodes and Data Partners](../fig/node_map_updated.JPG)
+![Nodes and Data Partners](../fig/node_map_updated.jpg)
 
 
 ## Node Training
