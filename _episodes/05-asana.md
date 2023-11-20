@@ -27,8 +27,10 @@ Why Asana?
 OTN has several relevant Asana Teams, beyond `Field Operations` (described below), that you will need to interact with.
 - **OTNHQ:** a space for HQ-wide resources, including communications resources, swag inventory tracking, and onboarding/offboarding processes.
 - **Key Performance Indicators:** the space to track all KPIs to ensure they roll into the KPI dashboard.
-- **Field Management:** the place where all loaner-operations are tracked and managed. This team is extremely important, and relates directly into the `Projects` within Field Operations (ex: Shipping).
-
+- **Field Management:** the place where all loaner-operations are tracked and managed. This team is extremely important, and relates directly into many `Projects` within Field Operations (ex: Shipping). In `Field Management`, OTN Field Techs will be assigned tasks regarding
+	* Review of loaner project applications
+	* Tracking loaner project inventories (using linked OneDrive lists). This **must** be updated for each incoming and outgoing shipment, so the loan agreements remain accurate.
+	* Tracking of correspondance with loaner PIs (add comments to keep everyone in the loop)
 
 ## Field Operations Team
 

@@ -38,7 +38,10 @@ OTN and affiliated networks provide automated cross-referencing of detection dat
 
 ## Metadata Tips and Tricks
 
-Here are some field-specific guidelines for completing metadata. The OTN Field team has their own metadata format, based on the Shortform Template, but containing OTN-specific columns, which is used for many projects. The **OTN-Field deployment metadata sheet is available [here](https://gitlab.oceantrack.org/otnfield/OTN_Field_Ops/-/wikis/Metadata%20Templates).**
+Below are some field-specific guidelines for completing metadata. The OTN Field team has their own metadata format, based on the Shortform Template, but containing OTN-specific columns, which is used for many projects. 
+
+**The OTN-Field deployment metadata sheet is available [HERE](../files/OTN-TECH-instrument-deployment-short-form.xls)**
+
 
 If you are unsure of what information to put in a column, refer to the `Data Dictionary` tab of the metadata for other instructions.
 
