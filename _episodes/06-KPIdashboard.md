@@ -48,7 +48,7 @@ You are able to export as an XLSX, and soon as a CSV as well.
 
 **TIP: use this to track down shipping chaos - where has a receiver been reporting?**
 
-![Receiver Report Tool](../fig/receiver_report_tool_updated.PNG)
+![Receiver Report Tool](../fig/receiver_report_tool_updated.png)
 
 ### Receiver Efficiency Index Tool
 
@@ -56,7 +56,7 @@ This `Receiver Efficiency Index Tool` was developed to determine which stations 
 
 This tool allows you to choose a collection code and date range, and either view or export an interactive map displaying the "hot spots" of detection activity (yellow colour) in your array. This is important for OTN to use for array reconfiguration evaluations.
 
-![Receiver Efficiency Index Tool](../fig/rei_tool_updated.PNG)
+![Receiver Efficiency Index Tool](../fig/rei_tool_updated.png)
 
 ### Bibliography Graph
 

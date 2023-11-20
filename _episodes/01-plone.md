@@ -117,7 +117,7 @@ OTNDC has created a [Frequently Asked Questions](https://members.oceantrack.org/
 
 If there are topics you think should be added, please reach out to OTNDC - this page can be updated at any time to remain valuable to users.
 
-![Current FAQs](../fig/FAQ_page_updated.PNG)
+![Current FAQs](../fig/FAQ_page_updated.png)
 
 ## Statistics Page
 
