@@ -58,6 +58,8 @@ This is a standard subfolder available in all project repository folders. This i
 Files and folders can be added using the `Add new...` option on the left-hand menu. The folder organization is customizable, like Dropbox/Google Drive or similar programs.
 
 
+
+
 #### TIP: Batch Uploading
 
 If you are uploading multiple files at once, into the same folder, you can use the `Batch Upload` function to save time.
@@ -69,6 +71,8 @@ If you are uploading multiple files at once, into the same folder, you can use t
 5. When you are finished, return to your standard folder display by choosing `View` from the left-hand menu.
 
 **Please do not Batch Upload single VRL files - these should be zipped together**
+
+
 
 
 #### TIP: Editing/Renaming
@@ -86,6 +90,9 @@ Editing a file:
 Plone has a version-control history, so it is possible to revert back to a previous version of a file if you edited it by mistake.
 
 OTNDC staff receive an email each time you edit, delete or post a file.
+
+
+
 
 #### TIP: Finding a current file
 

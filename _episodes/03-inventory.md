@@ -60,7 +60,7 @@ When a new order of equipment has been received, its important to import the ass
 
 ### Import Template
 
-In order to use the batch import function, a `.csv` file needs to be created, following this standard template - [Snipe Asset Import Template](../files/Asset_import_example.csv)
+In order to use the batch import function, a `.csv` file needs to be created, following this standard template - **[Snipe Asset Import Template](../files/Asset_import_example.csv)**
 
 The mandatory columns and their formats are:
 
