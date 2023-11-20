@@ -36,7 +36,7 @@ As the Field team has grown, job descriptions have expanded, and remote work has
 
 Each OTN Field team member should have an Asana account created - please contact Project Management.
 
-![FieldOps Asana Home Page](../fig/fieldops_asana_home.PNG)
+![FieldOps Asana Home Page](../fig/fieldops_asana_home.png)
 
 This Field Ops Asana has been created as a place to track complex / important / outstanding issues so that they can be contributed to collaboratively and archived for future reference. This will be used in addition to Slack to make sure all Field Team members are communicating and information does not slip between the cracks of our busy schedules.
 
@@ -65,7 +65,7 @@ Each Project in Field Operations should include information in an `Overview` tab
 
 Current members of this Asana Project include: all Field staff and members of the Project Management Office. Please tag them in any tasks (using the @ symbol) to prompt them for input.
 
-![Project Overview](../fig/asana_project_overview.PNG)
+![Project Overview](../fig/asana_project_overview.png)
 
 
 ## Tasks 
@@ -77,7 +77,7 @@ Tasks can be reassigned when needed to ensure they're not forgotten when a staff
 
 You can see all `Tasks` and `Subtasks` assigned to you, with their due dates, in the left-hand menu option `My Tasks`. **You need to check these every day to ensure you are not missing tasks assigned to you by Project Management or other teams.**
 
-![Asana Structure](../fig/asana_structure.PNG)
+![Asana Structure](../fig/asana_structure.png)
 
 
 ## More Information
