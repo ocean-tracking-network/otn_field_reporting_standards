@@ -15,7 +15,7 @@ This curriculum is public, so we cannot add the login credentials here, but plea
 
 **Note**: this is for internal use only! The output from any of these KPI tools can **not** be shared externally without first discussing with Project Management or OTNDC.
 
-![Dashboard Banner](../fig/dashboard_banner_updated.PNG)
+![Dashboard Banner](../fig/dashboard_banner_updated.png)
 
 ### View KPI
 
